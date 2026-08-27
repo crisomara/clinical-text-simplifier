@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+transformers>=4.44
+peft>=0.11
+accelerate
+datasets
+evaluate
+sacrebleu
+rouge-score
+sacremoses
+textstat
+sentencepiece
+pandas
+numpy
+tqdm

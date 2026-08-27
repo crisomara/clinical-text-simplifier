@@ -1,0 +1,32 @@
+{
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter_dir": "C:\\Users\\User\\Desktop\\CLINICAL-TEXT-SIMPLIFIER\\checkpoints\\lora_adapter",
+  "test_path": "C:\\Users\\User\\Desktop\\CLINICAL-TEXT-SIMPLIFIER\\data\\processed\\test.jsonl",
+  "n_examples": 200,
+  "baseline_zero_shot": {
+    "n_examples": 200,
+    "sari": 29.044659186682527,
+    "bleu": 9.484674449453095,
+    "rouge1": 0.3337634528627999,
+    "rouge2": 0.12915304124526852,
+    "rougeL": 0.29522874616379935,
+    "fk_grade_source_mean": 14.596217626668084,
+    "fk_grade_prediction_mean": 12.241060986739441,
+    "fk_grade_reference_mean": 13.19621884834081,
+    "fk_grade_delta_prediction_vs_source": -2.3551566399286425,
+    "fk_grade_delta_reference_vs_source": -1.3999987783272747
+  },
+  "fine_tuned": {
+    "n_examples": 200,
+    "sari": 34.10668686508687,
+    "bleu": 17.403261523028373,
+    "rouge1": 0.41428487734075775,
+    "rouge2": 0.20959056668326856,
+    "rougeL": 0.37953646885630055,
+    "fk_grade_source_mean": 14.596217626668084,
+    "fk_grade_prediction_mean": 11.083954029251098,
+    "fk_grade_reference_mean": 13.19621884834081,
+    "fk_grade_delta_prediction_vs_source": -3.512263597416986,
+    "fk_grade_delta_reference_vs_source": -1.3999987783272747
+  }
+}

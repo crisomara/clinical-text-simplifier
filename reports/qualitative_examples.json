@@ -1,0 +1,1202 @@
+[
+  {
+    "source": "New recommendations for the classification and diagnosis of diabetes mellitus include the preferred use of the terms \"type 1\" and \"type 2\" instead of \"IDDM\" and \"NIDDM\" to designate the two major types of diabetes mellitus; simplification of the diagnostic criteria for diabetes mellitus to two abnormal fasting plasma determinations; and a lower cutoff for fasting plasma glucose (126 mg per dL [7 mmol per L] or higher) to confirm the diagnosis of diabetes mellitus.",
+    "human_reference": "New recommendations for classifying diabetes mellitus include using \"type 1\" and \"type 2\" instead of \"IDDM\" and \"NIDDM\" to identify the two major types of diabetes mellitus; simplifying the criteria for identifying diabetes mellitus to two unusual fasting blood scores; and a lower cutoff for fasting plasma glucose or blood sugar.",
+    "baseline_output": "New guidelines recommend using terms like \"Type 1\" and \"Type 2\" instead of \"IDDM\" and \"NIDDM\" when describing different types of diabetes. Simplifying how doctors diagnose diabetes by focusing on just two important blood tests can help make it easier for people who don't know much about medicine to understand. And lowering the number of times they need to check if someone has diabetes from 3 to 4 is good because it makes it less likely that someone will get sick",
+    "fine_tuned_output": "New guidelines recommend using the terms \"type 1\" and \"type 2\" instead of \"IDDM\" and \"NIDDM\" to classify and diagnose type 1 and type 2 diabetes. Simplifying the diagnostic criteria for diabetes to two normal blood sugar levels is also recommended. The cutoff for fasting plasma glucose (126 mg per dL [7 mmol per L]) to confirm the diagnosis of diabetes is lowered from 140 mg/dL to 12"
+  },
+  {
+    "source": "These changes provide an easier and more reliable means of diagnosing persons at risk of complications from hyperglycemia.",
+    "human_reference": "These changes help improve identification of those at risk from effects of high blood sugar.",
+    "baseline_output": "These adjustments make it easier to identify people who might have problems with high blood sugar earlier on.",
+    "fine_tuned_output": "These changes make it easier to diagnose people who may have problems with high blood sugar."
+  },
+  {
+    "source": "Currently, only one half of the people who have diabetes mellitus have been diagnosed.",
+    "human_reference": "Currently, only half of those with diabetes mellitus have been identified.",
+    "baseline_output": "Currently, less than half of individuals suffering from type 2 diabetes have been identified as having the condition.",
+    "fine_tuned_output": "Only half of those with diabetes have been diagnosed."
+  },
+  {
+    "source": "Screening for diabetes mellitus should begin at 45 years of age and should be repeated every three years in persons without risk factors, and should begin earlier and be repeated more often in those with risk factors.",
+    "human_reference": "Testing for diabetes mellitus should begin at 45 years of age and be repeated every three years in those without health risks. Testing should begin earlier and more often for those with health risks.",
+    "baseline_output": "Screening for diabetes starts when you're around 45 years old and needs to check again every 3 years. If you don't have any risk factors, it's better to check sooner. But if you do have some risk factors, it's even better to check more often.",
+    "fine_tuned_output": "Screening for diabetes begins when people are 45 years old and is done again every 3 years. People who have no risk factors can start screening sooner. People with risk factors can start screening later and more often."
+  },
+  {
+    "source": "Risk factors include obesity, first-degree relatives with diabetes mellitus, hypertension, hypertriglyceridemia or previous evidence of impaired glucose homeostasis.",
+    "human_reference": "Health risks include obesity, first-degree relatives with diabetes, high blood pressure, high blood fat, or prior signs of blood sugar imbalance.",
+    "baseline_output": "Risk factors include being overweight, having family members with type 2 diabetes, high blood pressure, high levels of triglycerides (a type of fat), or experiencing problems with how your body handles sugar (glucose).",
+    "fine_tuned_output": "Risk factors include being overweight, having family members with diabetes, high blood pressure, high triglyceride levels, or having impaired glucose control before birth."
+  },
+  {
+    "source": "Earlier detection of diabetes mellitus may lead to tighter control of blood glucose levels and a reduction in the severity of complications associated with this disease.",
+    "human_reference": "Earlier detection of diabetes mellitus may improve blood sugar control and health issues from the disease.",
+    "baseline_output": "Early diagnosis of diabetes can help manage blood sugar better and reduce the risk of serious health problems it causes.",
+    "fine_tuned_output": "Early detection of diabetes can help keep blood sugar levels under control and reduce the severity of complications from diabetes."
+  },
+  {
+    "source": "In 1997 the American Diabetes Association lowered the threshold for diagnosis of diabetes from a fasting plasma glucose concentration of 7.8 mmol/l to 7.0 mmol/l and advised that the oral glucose tolerance test no longer be used in routine clinical practice.",
+    "human_reference": "In 1997 the American Diabetes Association lowered the threshold for diagnosis of diabetes from a fasting (having not eaten food recently) blood glucose (sugar) level of 7.8 mmol/l to 7.0 mmol/l and advised that the by-mouth glucose tolerance test no longer be used in regular clinical practice.",
+    "baseline_output": "In 1997, the American Diabetes Association changed how they diagnose diabetes by lowering the blood sugar level needed to be diagnosed from 7.8 mmol/l to 7.0 mmol/l. They also stopped using an important test called the oral glucose tolerance test because it wasn't as accurate anymore.",
+    "fine_tuned_output": "In 1997, the American Diabetes Association lowered the threshold for diagnosing diabetes from a fasting plasma glucose level of 7.8 mmol/l (millimoles per liter) to 7.0 mmol/l (millimoles per liter). The American Diabetes Association also advised that the oral glucose tolerance test no longer be used in routine clinical practice."
+  },
+  {
+    "source": "In 1999 the World Health Organization endorsed the reduction in fasting plasma glucose threshold but recommended retaining the oral glucose tolerance test for anyone with impaired fasting glucose (6.1 mmol/l-6.9 mmol/l).",
+    "human_reference": "In 1999 the World Health Organization supported the reduction in fasting blood glucose threshold but recommended keeping the by-mouth glucose tolerance test for anyone with affected fasting glucose (6.1 mmol/l-6.9 mmol/l).",
+    "baseline_output": "In 1999, the World Health Organization approved reducing the fasting plasma glucose threshold to 6.1 mmol/l-6.9 mmol/l while still recommending the oral glucose tolerance test for individuals with impaired fasting glucose levels of 6.1 mmol/l or higher.",
+    "fine_tuned_output": "In 1999 the WHO said lowering blood sugar levels by eating less food or taking medicine to lower blood sugar was good. But they also said keeping a blood sugar level check every day is important for people who have low blood sugar."
+  },
+  {
+    "source": "This Review discusses the impact of these changes on the prevalence of diabetes and examines the implications for individuals and specific high-risk groups.",
+    "human_reference": "This Review discusses the effect of these changes on the prevalance of diabetes and checks how it affects individuals and specific high-risk groups.",
+    "baseline_output": "This review explores how certain modifications affect the rate of diabetes among people and identifies potential risks to certain groups.",
+    "fine_tuned_output": "This review looks at how changing blood sugar levels affect people with diabetes and also considers the effects on different groups of people who have higher risk of developing diabetes."
+  },
+  {
+    "source": "The phenotype of those diagnosed with diabetes and the predictive value for the development of complications according to the different criteria are compared.",
+    "human_reference": "The physical effects of those identified with diabetes and the predictive value for the development of side effects according to the different criteria are compared.",
+    "baseline_output": "The differences between people who have diabetes and those at higher risk for developing serious health problems after being tested based on various factors are analyzed.",
+    "fine_tuned_output": "The differences between people who have diabetes and those without it are compared."
+  },
+  {
+    "source": "It is clear that these changes in diagnostic criteria have major importance both for individuals and for resource planning at a national level.",
+    "human_reference": "It is clear that these changes in identification criteria have major importance both for individuals and for planning at a national level.",
+    "baseline_output": "These changes in diagnostic criteria are crucial for both individual patients and overall resource management at a national scale.",
+    "fine_tuned_output": "It's important to change how doctors diagnose patients so they can better treat them."
+  },
+  {
+    "source": "The International Expert Committee recommends that the diagnosis of diabetes be made if hemo globin A1c (HbA1c) level is greater, similar 6.5% and confirmed with a repeat HbA1c test.",
+    "human_reference": "An international committee recommends diagnosing diabetes if hemoglobin A1c (HbA1c), an iron-rich blood protein joined to a sugar, is at or over 6.5% with multiple tests.",
+    "baseline_output": "The expert group suggests diagnosing diabetes when someone's hemoglobin A1C level is higher than 6.5%, which has been confirmed by another test.",
+    "fine_tuned_output": "The International Expert Committee recommends that the diagnosis of diabetes be made if hemoglobin A1c (a blood sugar measurement) level is higher than 6.5%."
+  },
+  {
+    "source": "The committee recommends against \"mixing different methods to diagnose diabetes\" because \"the tests are not completely concordant: using different tests could easily lead to confusion\".",
+    "human_reference": "The committee recommends not \"mixing different methods to diagnose diabetes\" because \"the tests are not completely concordant [or consistent]: using different tests could easily lead to confusion\".",
+    "baseline_output": "The medical team advises against mixing different diagnostic methods for diabetes because it's possible that using different tests might cause confusion.",
+    "fine_tuned_output": "The committee advises against mixing different ways of diagnosing diabetes because the tests aren't totally consistent. Using different tests can cause confusion."
+  },
+  {
+    "source": "Fasting plasma glucose, 2-hour postglucose-load plasma glucose, and oral glucose tolerance tests are recommended for the diagnosis of diabetes only if HbA1c testing is not possible due to unavailability of the assay, patient factors that preclude its inter pretation, and during pregnancy.",
+    "human_reference": "Fasting blood sugar tests and blood sugar tests after simple sugar intake may help identify diabetes only if testing for HbA1c is not possible.",
+    "baseline_output": "Fasting blood sugar levels, two hours after eating, and glucose tolerance tests are important for diagnosing diabetes only if you can't get an HbA1c test because it's hard to measure or if your body isn't working well enough to make the test work properly. This applies especially when you're pregnant.",
+    "fine_tuned_output": "Fasting blood sugar, two hours after eating blood sugar, and blood glucose levels taken orally are recommended for diagnosing diabetes only if blood sugar can't be measured using other methods."
+  },
+  {
+    "source": "HbA1c testing has the advantages of greater clinical convenience, preanalytic stability, and assay standardization, but when used as the sole diagnostic criterion for diabetes, it has the potential for systematic error.",
+    "human_reference": "HbA1c testing is useful for greater convenience, accuracy, and uniformity, but as the single tool for identification, it may lead to measurement errors.",
+    "baseline_output": "Hemoglobin A1c tests offer several benefits, including ease of use, stability during analysis, and standardized methods. However, they can introduce errors if used solely to diagnose diabetes, potentially leading to inaccuracies.",
+    "fine_tuned_output": "HbA1c testing is more convenient than other blood tests to measure how much glucose is in your blood. It also helps doctors make sure people have diabetes by comparing their results with others. However, using this test alone to diagnose diabetes can cause errors."
+  },
+  {
+    "source": "Factors that may not be clinically evident impact HbA1c test results and may systematically raise or lower the value relative to the true level of glycemia.",
+    "human_reference": "Unknown factors may alter scores of the iron-rich blood protein relative to the actual blood sugar level.",
+    "baseline_output": "Factors that might not show up clearly can affect how accurately your doctor measures your blood sugar levels (Hemoglobin A1c). This can make the numbers you get from this test slightly different than what really happens in your body.",
+    "fine_tuned_output": "Factors that may not be clinically apparent can affect the results of the blood sugar test and may cause the test result to be higher or lower than the actual level of blood sugar."
+  },
+  {
+    "source": "For this reason, HbA1c should be used in combination with plasma glucose determinations for the diagnosis of diabetes.",
+    "human_reference": "Thus, tests for this iron-rich blood protein connected to a sugar should be combined with other blood sugar values for diabetes identification.",
+    "baseline_output": "For this reason, blood sugar levels (HbA1c) should also be measured together with urine glucose tests to diagnose diabetes.",
+    "fine_tuned_output": "For this reason, blood sugar levels (HbA1c) should also be measured together with blood glucose levels to diagnose diabetes."
+  },
+  {
+    "source": "If an HbA1c test result is discordant with the clinical picture or equivocal, plasma glucose testing should be performed.",
+    "human_reference": "If a score for HbA1c disagrees with the general reading, blood sugar testing should be performed.",
+    "baseline_output": "If your HbA1c test results don't match what's happening in your body (or if they're unclear), you might need to check how much sugar is in your blood.",
+    "fine_tuned_output": "If an HbA1c test result is discordant with the clinical picture or equivocal, blood sugar levels should be measured."
+  },
+  {
+    "source": "A diagnostic cut-off point of HbA1c greater, similar 6.5% misses a substantial number of people with type 2 diabetes, including some with fasting hyperglycemia, and misses most people with impaired glucose tolerance.",
+    "human_reference": "A cut-off point at or over 6.5% for HbA1c misses many with type 2 diabetes, high fasting blood sugar, and impaired blood sugar sensitivity.",
+    "baseline_output": "A diagnostic cut-off point for HbA1c higher than 6.5% fails to detect many people with type 2 diabetes, including those with high blood sugar levels during meals (fasting), and misses most people with poor glucose control.",
+    "fine_tuned_output": "The cutoff for blood sugar levels is higher than normal. This means more people have high blood sugar levels, even if they don't have diabetes."
+  },
+  {
+    "source": "Combining the use of HbA1c and plasma glucose measurements for the diagnosis of diabetes offers the benefits of each test and reduces the risk of systematic bias inherent in HbA1c testing alone.",
+    "human_reference": "Using tests for HbA1c and blood sugar measurements identifies diabetes better than HbA1c tests alone.",
+    "baseline_output": "Combining blood sugar levels (plasma glucose) and hemoglobin A1c (HbA1c) can help doctors diagnose diabetes better by using both tests together. This approach reduces the chance of errors caused by just one test.",
+    "fine_tuned_output": "Combining blood sugar levels (HbA1c) and urine glucose levels (plasma glucose) can help diagnose diabetes more accurately. This method also helps reduce the chance of errors caused by using one test instead of another."
+  },
+  {
+    "source": "Highly sensitive and specific radioimmunoassays have been validated for autoantibodies reacting with the four major autoantigens identified so far in autoimmune diabetes.",
+    "human_reference": "Certain precise measuring tools can measure specific, self-made proteins that tag four major markers of autoimmune diabetes (diabetes from the body mistakenly destroying its own cells).",
+    "baseline_output": "Highly sensitive and specific radioimmunoassays have been proven effective at detecting antibodies linked to four main autoantigens found in people with autoimmune diabetes.",
+    "fine_tuned_output": "Highly sensitive and specific tests have been developed to detect antibodies against the four main autoantigen proteins found in autoimmune diabetes."
+  },
+  {
+    "source": "However, the analysis of this large number of autoantigens has increased the costs and time necessary for complete autoantibody screenings.",
+    "human_reference": "However, analysis of these many self-made markers increases costs and time for measurements.",
+    "baseline_output": "However, analyzing so many autoantigens has made it more expensive and time-consuming to perform comprehensive antibody tests.",
+    "fine_tuned_output": "However, the cost and time needed to test all autoantibodies have increased."
+  },
+  {
+    "source": "Our aim was to demonstrate that it is possible to detect the immunoreactivity against a combination of four different autoantigens by a single assay, this representing a rapid, low-cost first approach to evaluate humoral autoimmunity in diabetes.",
+    "human_reference": "We aim to show a quick, low-cost approach for detecting these four self-made markers to check for antibody-related autoimmunity in diabetics.",
+    "baseline_output": "Our goal was to show that we can easily tell if someone has antibodies against four different things called autoantigens using just one test, which might help doctors know if they have too many of these antibodies in their body when people have diabetes.",
+    "fine_tuned_output": "We wanted to show that we can test for antibodies against four different types of autoantibodies (autoimmune proteins) using one test. This represents a quick, inexpensive way to study how the body reacts to diabetes."
+  },
+  {
+    "source": "By using this novel multi-autoantigen radioimmunoassay (MAA), in subsequent steps we analysed 830 sera, 476 of known and 354 of unknown diabetes-specific immunoreactivity, collected from various groups of individuals including type 1 and type 2 diabetes patients, autoantibody-positive patients with a clinical diagnosis of type 2 diabetes (LADA), prediabetic subjects, individuals at risk to develop autoimmune diabetes, siblings of type 1 diabetic patients, coeliac patients and healthy control subjects.",
+    "human_reference": "With this new measuring tool, which is called a multi-autoantigen radioimmunoassay (MAA), we measured 830 blood samples, 476 of known and 354 of unknown diabetes type. These samples came from type 1 and type 2 diabetics, slow-progressing type 2 diabetics, prediabetics, individuals at risk to develop autoimmune diabetes, siblings of type 1 diabetics, gluten-sensitive patients, and healthy patients.",
+    "baseline_output": "By using this special test, we looked at blood samples from many people who had different kinds of sicknesses. We found out how much sugar was in their blood and what kind of antibodies they had. This helped doctors figure out if someone might have diabetes or other illnesses.",
+    "fine_tuned_output": "We used a new test called MAA to look for antibodies in blood samples. We looked at 830 samples from people who had diabetes or were taking medicine to treat it. We also looked at 476 samples from people who had diabetes but did not take medicine to treat it. We looked at 354 samples from people who had diabetes but took medicine to treat it. We looked at samples from people who had diabetes but did not take medicine to treat it. We looked"
+  },
+  {
+    "source": "All sera reacting with one or more of the four autoantigens by single assays also resulted positive with MAA, as well as eight of 24 type 1 diabetic patients classified initially as autoantibody-negative at disease onset based on single autoantibody assays.",
+    "human_reference": "All blood reacting with one or more of the four self-made markers by other tools also reacts with MAA, along with eight more, type 1 diabetics whose blood did not react with other tools.",
+    "baseline_output": "All sera reacted to four autoantigens when tested individually, but they were also positive for all four autoantigens when combined with MAA tests. Out of 8 out of 24 type 1 diabetic patients who started off negative based on single autoantibody tests, 8 showed positive results after being retested using MAA tests.",
+    "fine_tuned_output": "All sera (blood samples) reacted with one or more of the four autoantigens by single tests. Also, all patients who were initially negative for antibodies to diabetes caused by autoantibodies tested positive for MAA."
+  },
+  {
+    "source": "In addition, MAA showed 92% sensitivity and 99% specificity by analysing 140 blinded sera from type 1 diabetic patients and control subjects provided in the 2010 Diabetes Autoantibody Standardization Program.",
+    "human_reference": "Also, MAA shows high accuracy for disease detection and no detection after analysing 140 unknown blood samples from type 1 diabetics and healthy patients.",
+    "baseline_output": "In other words, MAA was able to detect 92% of diabetes antibodies in 140 samples from people who had been treated for diabetes before, compared to just 99% in 140 samples from healthy people.",
+    "fine_tuned_output": "MAA also showed high sensitivity (85-93%) and specificity (76-99%) when analyzing 140 samples of blood from type 1 diabetic patients and control subjects who were given the 2010 diabetes autoantibody standardization program."
+  },
+  {
+    "source": "MAA is the first combined method also able to evaluate, in addition to glutamic acid decarboxylase (GAD) and tyrosine phosphatase (IA)-2, insulin and islet beta-cell zinc cation efflux transporter (ZnT8) autoantibodies.",
+    "human_reference": "MAA is the first to measure multiple self-made tagging proteins.",
+    "baseline_output": "MAA is the first combination test that can detect insulin and ZnT8 antibodies in people who have these specific types of immune system problems.",
+    "fine_tuned_output": "MAA is the first combined method that can test for insulin and other antibodies related to diabetes."
+  },
+  {
+    "source": "It appears to be particularly appropriate as a first-line approach for large-scale population-based screenings of anti-islet autoimmunity.",
+    "human_reference": "This new tool appears appropriate for checking if a person's cells mistakenly attack their own diabetes-regulating cells.",
+    "baseline_output": "It seems to be suitable as a first-choice method for screening people who have antibodies against insulin in their bodies.",
+    "fine_tuned_output": "It seems to be especially effective as a first-line approach for screening people who have antibodies against insulin-producing cells."
+  },
+  {
+    "source": "Diagnostic criteria for diabetes in children have not been established with nearly the rigor as that employed in adults.",
+    "human_reference": "Standards of diagnosing diabetes in children have not been established with nearly the same precision as has been used in adults",
+    "baseline_output": "Children's diagnostic criteria for diabetes are less stringent than those used in adults.",
+    "fine_tuned_output": "Children's diagnostic criteria for diabetes have not been developed with the same level of rigor as those used on adults."
+  },
+  {
+    "source": "Recently revised American Diabetes Association (ADA) criteria allowed utilization of hemoglobin A(1c) (HbA1c) \u2265 6.5 % for diagnosis of diabetes.",
+    "human_reference": "Recently revised American Diabetes Association (ADA) guidelines uses the standard of  \u2265 6.5 % in the HbA1c test as a diagnosis of diabetes.",
+    "baseline_output": "Recently, the ADA guidelines changed so that using HbA1c levels above 6.5% can diagnose diabetes.",
+    "fine_tuned_output": "The ADA has changed its guidelines to allow using blood sugar levels greater than or equal to 6.5% as a way to diagnose diabetes."
+  },
+  {
+    "source": "A recent series of pediatric studies appear to show that HbA1c has lower sensitivity than Fasting plasma glucose (FPG) or oral glucose tolerance test (OGTT).",
+    "human_reference": "Recent studies in children show that the HbA1c test is not as accurate as other tests that measure glucose in the blood.",
+    "baseline_output": "Recent studies suggest that HbA1c is less sensitive than fasting blood sugar levels (FPG) or an oral glucose tolerance test (OGTT).",
+    "fine_tuned_output": "Recent studies suggest that blood sugar levels measured by measuring how long it takes for your body to process food may be less sensitive than fasting blood sugar (blood sugar after eating), or testing blood sugar before eating."
+  },
+  {
+    "source": "However, FPG and OGTT have themselves never been validated in children.",
+    "human_reference": "However, other glucose measuring blood tests have not yet been verified to work in children.",
+    "baseline_output": "However, studies on children's blood sugar levels and oral glucose tolerance tests have never been confirmed.",
+    "fine_tuned_output": "However, fasting blood sugar and oral glucose tolerance tests have never been tested on children."
+  },
+  {
+    "source": "Studies to validate diagnostic thresholds in children appear unlikely to take place.",
+    "human_reference": "Future studies, to see which glucose measuring test is best in children, are unlikely to happen.",
+    "baseline_output": "Studies to improve diagnostic accuracy for children may be challenging to implement.",
+    "fine_tuned_output": "Studies to determine how well doctors can diagnose children may not happen."
+  },
+  {
+    "source": "Thus, accepting the major ADA diagnostic criteria appears to be the best course of action for the pediatric community.",
+    "human_reference": "Accepting the ADA guidelines for diagnosing diabetes in children appears to be the best option for pediatricians.",
+    "baseline_output": "Therefore, adhering to the major ADA diagnostic criteria seems like the most effective approach for the pediatric community.",
+    "fine_tuned_output": "Therefore, accepting the major ADA diagnostic criteria is the best way to treat children."
+  },
+  {
+    "source": "One area in which correlation studies between HbA1c and FPG or OGTT might shed light is in the definition of criteria for intervention in 'pre-diabetes,' as the Diabetes Prevention Program Trial did not use HbA1c.",
+    "human_reference": "Future studies on blood glucose tests should try to develop a guideline for doctors to treat \u2018pre-diabetes\u2019.",
+    "baseline_output": "In areas where correlations between HbA1c levels and fasting glucose (FPG) or oral glucose tolerance tests (OGTT) might be useful, one example is defining pre-diabetes criteria in the Diabetes Prevention Program Trial.",
+    "fine_tuned_output": "One way to look at whether blood sugar levels can be used to predict diabetes risk is by comparing them to fasting glucose or oral glucose tolerance tests."
+  },
+  {
+    "source": "However, such treatment, and the exact diagnostic thresholds at which it should be initiated in children, remains unproven.",
+    "human_reference": "However, such treatment, and the best way to diagnose and treat \u2019pre-diabetes\u2019, has not been proven.",
+    "baseline_output": "However, this method and how to start using it for children's cases is still being studied.",
+    "fine_tuned_output": "However, this treatment is still unknown and needs to be tested further."
+  },
+  {
+    "source": "Diabetes mellitus is a common disease whose complications are severe.",
+    "human_reference": "Diabetes mellitus is a common disease whose side effects are severe.",
+    "baseline_output": "Diabetes Mellitus is a frequent illness that can cause serious health problems.",
+    "fine_tuned_output": "Diabetes mellitus is a common disease that causes serious health problems."
+  },
+  {
+    "source": "For decades, the diagnosis of diabetes and prediabetes was using only fasting glucose or glucose two hours during an oral glucose tolerance test.",
+    "human_reference": "For decades, the diagnosis of diabetes and prediabetes was using only fasting (without food) glucose or glucose two hours during an by-mouth (oral) glucose sensitivity test.",
+    "baseline_output": "For centuries, diagnosing diabetes and prediabetes relied on fasting blood sugar levels or blood sugar readings taken after just two hours of consuming a glucose solution orally.",
+    "fine_tuned_output": "For many years, doctors used only blood sugar levels (fasting) or blood sugar levels taken after 2 hours of eating to diagnose diabetes and prediabetes."
+  },
+  {
+    "source": "Recently, it is possible to use HbA1c.",
+    "human_reference": "Recently, it is possible to use HbA1c (a simple blood sugar test).",
+    "baseline_output": "It's now possible to measure blood sugar levels called HbA1c.",
+    "fine_tuned_output": "It's possible to measure blood sugar levels using hemoglobin A1c."
+  },
+  {
+    "source": "Each of these tests has advantages and limitations that must be well known by clinicians for better care for patients.",
+    "human_reference": "Each of these tests has pros and cons that must be well known by clinicians for better care for patients.",
+    "baseline_output": "Each of these tests offers benefits and drawbacks that need to be understood by doctors so they can provide the best possible care for their patients.",
+    "fine_tuned_output": "Each test has its own advantages and disadvantages that need to be understood by doctors so they can provide better care for patients."
+  },
+  {
+    "source": "So they could use one, two or three of this tests to reach to a proper diagnosis.",
+    "human_reference": "So they could use one, two or three of this tests to reach a proper diagnosis.",
+    "baseline_output": "So they can choose from one, two, or three tests to get an accurate diagnosis.",
+    "fine_tuned_output": "So they can use one, two or three of these tests to get a proper diagnosis."
+  },
+  {
+    "source": "The aim of this article is about the strong and weak points of these tests.",
+    "human_reference": "This article's aim is about the strong and weak points of these tests.",
+    "baseline_output": "This article aims to highlight both strengths and weaknesses of the tests discussed.",
+    "fine_tuned_output": "This article aims to discuss the strengths and weaknesses of these tests."
+  },
+  {
+    "source": "Objective: The objective of this study was to compare the use of hemoglobin A1C to oral glucose tolerance testing to diagnose overt type 2 diabetes in the first trimester of pregnancy.",
+    "human_reference": "The objective of this study was to compare the use of hemoglobin A1C (a simple blood sugar test) to oral (by-mouth) glucose sensitivity (tolerance) testing to diagnose before-birth type 2 diabetes in the first trimester of pregnancy.",
+    "baseline_output": "The primary goal of this research is to determine whether using blood sugar levels from earlier pregnancies (the first trimester) can help diagnose gestational diabetes in women who have been diagnosed with type 2 diabetes before they become pregnant.",
+    "fine_tuned_output": "The purpose of this study is to compare the use of blood sugar tests (hemoglobin A1c) to see if they can help diagnose type 2 diabetes in the first trimester of pregnancy."
+  },
+  {
+    "source": "The study used a nonexperimental descriptive design to compare the use of the hemoglobin A1C test results to oral glucose tolerance test results.",
+    "human_reference": "The study used a nonexperimental design to compare the use of the hemoglobin A1C test results to oral glucose tolerance test results.",
+    "baseline_output": "The study compared how well two tests measure blood sugar levels before and after eating.",
+    "fine_tuned_output": "The study compared the use of blood tests for measuring how much sugar is in the blood (hemoglobin A1c) to testing for diabetes symptoms (oral glucose tolerance test)."
+  },
+  {
+    "source": "Methods: The study used a sample of 45 women at high risk for type 2 diabetes in the first trimester of pregnancy.",
+    "human_reference": "The study's methods included a sample of 45 women at high risk for type 2 diabetes in the first trimester of pregnancy.",
+    "baseline_output": "The research involved examining the health status of 45 pregnant women who were at higher risk for developing type 2 diabetes during their early stages of pregnancy.",
+    "fine_tuned_output": "The study used a sample of 45 women who were at high risk for type 2 diabetes during the first trimester of pregnancy."
+  },
+  {
+    "source": "Participants were consented to draw a hemoglobin A1C with their ordered oral glucose tolerance testing for comparison of the two tests' ability to diagnose overt type 2 diabetes.",
+    "human_reference": "Participants volunteered to draw a hemoglobin A1C with their oral glucose tolerance testing for comparison of the two tests' ability to diagnose type 2 diabetes.",
+    "baseline_output": "Participants were asked to have blood drawn to measure how much sugar is in their blood (hemoglobin A1C) before they had a special test called an OGTT. This test helps doctors know if someone has type 2 diabetes, which is when the body doesn't make enough insulin or can't use it properly.",
+    "fine_tuned_output": "Participants were asked to draw blood samples from their bodies to measure how much sugar is in their blood."
+  },
+  {
+    "source": "Results: Hemoglobin A1C tests were highly positively correlated with oral glucose tolerance testing for diagnosis of type 2 diabetes in women in the first trimester of pregnancy.",
+    "human_reference": "For the study's results, hemoglobin A1C tests were highly linked with oral glucose tolerance testing for diagnosis of type 2 diabetes in women in the first trimester of pregnancy.",
+    "baseline_output": "Results: Women who had their blood sugar levels tested before they got pregnant showed very good results when doctors looked at how much sugar was in their blood after eating food.",
+    "fine_tuned_output": "Results: Women who had high blood sugar levels before pregnancy were more likely to have type 2 diabetes when they tested their blood sugar levels after pregnancy."
+  },
+  {
+    "source": "Conclusion: The research provides beginning evidence that the hemoglobin A1C should be considered as a first-tier diagnostic test for overt type 2 diabetes in the first trimester of pregnancy.",
+    "human_reference": "In conclusion, the research provides beginning evidence that the hemoglobin A1C should be considered as an important diagnostic test for before-birth type 2 diabetes in the first trimester of pregnancy.",
+    "baseline_output": "Conclusion: The study suggests that measuring hemoglobin A1C at the start of pregnancy might help diagnose gestational diabetes earlier than previously thought.",
+    "fine_tuned_output": "The study shows that the blood sugar level before pregnancy can help doctors diagnose type 2 diabetes earlier than other tests."
+  },
+  {
+    "source": "Introduction: Maturity onset diabetes of the young (MODY) is a rare form of monogenic diabetes.",
+    "human_reference": "The study's introduction states that the maturity onset diabetes of the young (MODY) is a rare form of single-gene-causing diabetes.",
+    "baseline_output": "Introduction: MODY is a rare type of diabetes where people develop it when they're very young.",
+    "fine_tuned_output": "Diabetes mellitus is a disease caused by genetic defects in the body's insulin production."
+  },
+  {
+    "source": "Being clinically and genetically heterogeneous, it is often misdiagnosed as type 1 or type 2 diabetes, leading to inappropriate therapy.",
+    "human_reference": "Being clinically and genetically diverse, it is often misdiagnosed as type 1 or type 2 diabetes, leading to inappropriate therapy.",
+    "baseline_output": "Being medically diverse and genetically complex, it's frequently misdiagnosed as either type 1 or type 2 diabetes, resulting in suboptimal treatment.",
+    "fine_tuned_output": "Being clinically and genetically different from other people can make it hard to diagnose and treat diabetes correctly."
+  },
+  {
+    "source": "MODY is caused by a single gene mutation.",
+    "human_reference": "MODY is caused by a single gene mutation.",
+    "baseline_output": "MODY results from a single genetic change.",
+    "fine_tuned_output": "MODY is caused by one gene change."
+  },
+  {
+    "source": "Thirteen genes, defining 13 subtypes, have been identified to cause MODY.",
+    "human_reference": "Thirteen genes, defining 13 types, have been identified to cause MODY.",
+    "baseline_output": "The thirteen genes responsible for MODY are associated with different types of disease.",
+    "fine_tuned_output": "The researchers found thirteen genes that define 13 different types of MODY."
+  },
+  {
+    "source": "A correct diagnosis is important for the right therapy, prognosis, and genetic counselling.",
+    "human_reference": "A correct diagnosis is important for the right therapy, recovery, and genetic counselling.",
+    "baseline_output": "A proper diagnosis is crucial for effective treatment, prediction of outcomes, and genetic counseling.",
+    "fine_tuned_output": "A correct diagnosis is important to treat the disease, predict how well it will heal, and help people know if they have a family history of the disease."
+  },
+  {
+    "source": "Material and methods: Twenty-nine unrelated paediatric patients clinically suspected of having MODY diabetes were analysed using TruSight One panel for next-generation sequencing (NGS) and multiplex ligation-dependent probe amplification (MLPA) assay.",
+    "human_reference": "The study's material and methods include twenty-nine unrelated child patients clinically suspected of having MODY diabetes analysed with DNA sequencing.",
+    "baseline_output": "Twenty-nine children who had been diagnosed with type 2 diabetes were examined using a special test called TruSight One to look at their blood cells. They also used another test called MLPA to find out more about their bodies.",
+    "fine_tuned_output": "Twenty-nine children who had been diagnosed with type 2 diabetes by their doctors were studied using a special test called Next Generation Sequencing (NGS)."
+  },
+  {
+    "source": "Results: In this study we identified variants in MODY genes in 22 out of 29 patients (75.9%).",
+    "human_reference": "As the results in this study, we identified different types in MODY genes in 22 out of 29 patients (75.9%).",
+    "baseline_output": "Results: We found variants in MODY genes in 22 out of 29 patients (75.9%), indicating potential genetic factors contributing to their disease.",
+    "fine_tuned_output": "In this study, we found variants in two types of genes related to MODY disease in 22 out of 29 patients (75.9%)."
+  },
+  {
+    "source": "Using two genetic tests, NGS and MLPA, we detected both single nucleotide variants and large deletions in patients.",
+    "human_reference": "Using two genetic tests termed NGS and MLPA, we detected both small mutation types and large gene deletions in patients.",
+    "baseline_output": "We found out that 20% of the patients had single-nucleotide variations (SNVs) and another 15% had very big changes called deletions.",
+    "fine_tuned_output": "We used two different genetic tests to detect single-nucleotide variations (SNVs) and large deletions (LDRs) in patients."
+  },
+  {
+    "source": "Most of the patients harboured a variant in the GCK gene (11/22), followed by HNF1B (5/22).",
+    "human_reference": "Most patients had a different type in the GCK gene (11/22), followed by HNF1B (5/22).",
+    "baseline_output": "Most patients have a mutation in the GCK gene (11 out of 22) followed by another mutation in HNF1B (5 out of 22).",
+    "fine_tuned_output": "Most of the patients had a different version of the gene for glycogen synthase kinase 3 (GSK-3) (11 out of 22), followed by another gene called HNF1B (5 out of 22)."
+  },
+  {
+    "source": "The rest of the variants were found in the NEUROD1 and HNF1A genes.",
+    "human_reference": "The rest of the different types were found in the NEUROD1 and HNF1A genes.",
+    "baseline_output": "The other variants were discovered within the genes for Neurod1 and HNF1A.",
+    "fine_tuned_output": "The other variants were found in the NURD1 and HNF1A genes."
+  },
+  {
+    "source": "We identified one novel variant in the GCK gene: c.596T>C, p.Val199Ala.",
+    "human_reference": "We identified one novel gene type in the GCK gene.",
+    "baseline_output": "We found one change in the GCK gene: a single base change from C to T at position 596, resulting in a change from Val to Ala.",
+    "fine_tuned_output": "We found one new variant in the GCK gene: c.596T>C, p.Val199Ala."
+  },
+  {
+    "source": "The applied genetic tests excluded the suspected diagnosis of MODY in two patients and revealed variants in other genes possibly associated with the patient's clinical phenotype.",
+    "human_reference": "The applied genetic tests excluded the suspected diagnosis of MODY in two patients and revealed subtypes in other genes possibly linked with the patient's clinical physical characteristics.",
+    "baseline_output": "The genetic tests found that two patients had an incorrect diagnosis of MODY (a rare blood disorder). They also identified variants in other genes that might be linked to their condition.",
+    "fine_tuned_output": "The genetic tests did not find the suspected diagnosis of MODY in two patients but found variants in other genes potentially related to the patient's symptoms."
+  },
+  {
+    "source": "Conclusions: In our group of MODY patients most variants were found in the GCK gene, followed by variants in HNF1B, NEUROD1, and HNF1A genes.",
+    "human_reference": "In conclusion, in our group of MODY patients, most gene types were found in the GCK gene, followed by changes in HNF1B, NEUROD1, and HNF1A genes.",
+    "baseline_output": "Conclusions: Among our group of patients with MODY (a rare genetic disorder), the majority of variants were detected in the GCK gene, followed by those in HNF1B, NEUROD1, and HNF1A genes.",
+    "fine_tuned_output": "Our study shows that most variants were found in the GCK gene, followed by variants in HNF1B, NEUROD1, and HNF1A genes."
+  },
+  {
+    "source": "The combined NGS and MLPA-based genetic tests presented a comprehensive approach for analysing patients with suspected MODY diabetes and provided a successful differential diagnosis of MODY subtypes.",
+    "human_reference": "The combined genetic tests presented a comprehensive way to analyze patients with possible MODY diabetes and provided a successful diagnosis of MODY subtypes.",
+    "baseline_output": "The combined use of NGS (next-generation sequencing) and MLPA (massively parallel next-generation sequencing) methods helped diagnose patients with suspected MODY diabetes accurately and effectively identified different types of MODY.",
+    "fine_tuned_output": "The combined use of NGS (next-generation sequencing) and MLPA (massive sequencing analysis) genetic testing helped identify patients with suspected MODY diabetes and successfully identified different types of MODY."
+  },
+  {
+    "source": "Polyuria-polydipsia syndrome consists of the three main entities: central or nephrogenic diabetes insipidus and primary polydipsia.",
+    "human_reference": "Polyuria-polydipsia syndrome consists of the three main effects: central or nephrogenic (kidney-related) diabetes insipidus (constantly-urinating) and primary polydipsia (great thirst).",
+    "baseline_output": "Polyuria-polydipsia is a condition where your body loses more water than it takes in. This can happen because there's something wrong with how your kidneys work. There are two types of this problem: one that happens when you have too much sugar in your blood (called central diabetes insipidus), and another that happens when your body doesn't need as much water anymore (primary polydipsia).",
+    "fine_tuned_output": "Polyuria-polydipsia syndrome is caused by three main things: central or kidney disease (diabetes) and primary polydipsia."
+  },
+  {
+    "source": "Reliable distinction between these diagnoses is essential as treatment differs substantially, with the wrong treatment potentially leading to serious complications.",
+    "human_reference": "Reliable differences between these diagnoses is needed as treatment differs greatly, with the wrong treatment potentially leading to serious side effects.",
+    "baseline_output": "Making sure you know which conditions match up correctly is crucial because different treatments can be very different, and taking the right one might save your life if something goes wrong.",
+    "fine_tuned_output": "It's important to distinguish between these conditions because treatment varies greatly, with some treatments causing serious problems."
+  },
+  {
+    "source": "Past diagnostic measures using the classical water deprivation test had several pitfalls and clinicians were often left with uncertainity concerning the diagnosis.",
+    "human_reference": "Past identification measures using the classical water deprivation test had several pitfalls and clinicians were often left with uncertainity regarding the diagnosis.",
+    "baseline_output": "Past tests using the classic water deprivation method had some problems and doctors sometimes didn't know for sure what was wrong until they tried it again.",
+    "fine_tuned_output": "Past tests to see if kidney function was impaired by dehydration did have some problems and doctors sometimes weren't sure about the results."
+  },
+  {
+    "source": "With the establishment of copeptin, a stable and reliable surrogate marker for arginine vasopressin, diagnosis of the polyuria-polydipsia syndrome has been newly evaluated.",
+    "human_reference": "With the creation of copeptin, a stable and reliable surrogate marker for arginine vasopressin (blood vessel constriction), diagnosis of the polyuria-polydipsia syndrome has been newly evaluated.",
+    "baseline_output": "With the introduction of copeptin, which serves as an accurate surrogate marker for arginine vasopressin, this diagnostic approach has significantly improved the understanding of the polyuria-polydipsia syndrome.",
+    "fine_tuned_output": "With the development of a new test called C-peptide, it is now possible to diagnose the polyuria-polydipsia syndrome."
+  },
+  {
+    "source": "Whereas unstimulated basal copeptin measurement reliably diagnoses nephrogenic diabetes insipidus, two new tests using stimulated copeptin cutoff levels showed a high diagnostic accuracy in differentiating central diabetes insipidus from primary polydipsia.",
+    "human_reference": "Whereas unstimulated basal copeptin (specific protein) measurement reliably identifies nephrogenic diabetes insipidus, two new tests using stimulated copeptin cutoffs showed a high identification accuracy in differentiating central diabetes insipidus from primary polydipsia.",
+    "baseline_output": "While baseline cortisol levels can diagnose nephrogenic diabetes insipidus, stimulated cortisol levels have shown better accuracy in diagnosing central diabetes insipidus compared to primary polydipsia.",
+    "fine_tuned_output": "The new tests measure how much copeptin is produced by the body when it's stimulated to produce more of the hormone. The new tests show good results for diagnosing nephrogenic diabetes insipidus (a rare kidney disease) and central diabetes insipidus (a condition where the body doesn't make enough water)."
+  },
+  {
+    "source": "For the hypertonic saline infusion test, osmotic stimulation via the induction of hypernatraemia is used.",
+    "human_reference": "For the hypertonic (very salty) saline infusion test, water-sucking stimulation via a high salt amount is used.",
+    "baseline_output": "For the hypertonic saline infusion test, osmotic stimulation through the induction of hypernatraemia is employed.",
+    "fine_tuned_output": "For the hypertonic saline (saltwater) test, osmotic stimulation by increasing sodium levels is used."
+  },
+  {
+    "source": "This makes the test highly reliable and superior to the classical water deprivation test, but also requires close supervision and the availability of rapid sodium measurements to guarantee the safety of the test.",
+    "human_reference": "This makes the test highly reliable and superior to the classical water deprivation test, but also requires close watch and the availability of rapid sodium measurements to guarantee the test's safety.",
+    "baseline_output": "This test is very accurate and better than another test called water deprivation. But it needs special care from someone who knows how to measure quickly if you're taking too much salt.",
+    "fine_tuned_output": "This test is very accurate and better than the classic water deprivation test, but it needs close monitoring and quick sodium tests to ensure safety."
+  },
+  {
+    "source": "Alternatively, arginine infusion can be used to stimulate copeptin release, opening the doors for an even shorter and safer diagnostic test.",
+    "human_reference": "Alternatively, arginine infusion (adding a specific protein in) can be used to stimulate copeptin release, opening the doors for an even shorter and safer diagnostic test.",
+    "baseline_output": "Alternatively, arginine infusions can help increase the amount of a hormone called copeptin, which might make it easier to diagnose conditions more quickly and safely.",
+    "fine_tuned_output": "Alternatively, arginine (a substance found in meat) can be used to increase the amount of a hormone called cortisol. This increases the time it takes to diagnose certain diseases."
+  },
+  {
+    "source": "The test protocols of the two tests are provided and a new copeptin-based diagnostic algorithm is proposed to reliably differentiate between the different entities.",
+    "human_reference": "The test protocols of the two tests are provided and a new copeptin-based diagnostic method is proposed to reliably identify between the different entities.",
+    "baseline_output": "The guidelines for testing the two methods are available, and a new algorithm based on copeptin is being developed to accurately distinguish among various entities.",
+    "fine_tuned_output": "The two tests have been tested and a new way to identify the different types of cells has been developed."
+  },
+  {
+    "source": "Furthermore, the role of copeptin as a predictive marker for the development of diabetes insipidus following surgical procedures in the sellar region is described.",
+    "human_reference": "Furthermore, the role of copeptin as a predictive marker for the development of diabetes insipidus following surgeries in the sellar region (an area of the head) is described.",
+    "baseline_output": "Furthermore, it's mentioned that the hormone called copeptin helps doctors figure out if people will get a condition called diabetes insipidus after they have surgery in their brain.",
+    "fine_tuned_output": "Copeptin, a hormone produced by the brain, helps predict whether someone will develop diabetes insipidus after surgery in the sellar region (the area between the spinal cord and the brain)."
+  },
+  {
+    "source": "The classification of diabetes was originally limited to only two categories called juvenile-onset diabetes mellitus, now known as type 1 diabetes mellitus, and adult-onset diabetes mellitus, now known as type 2 diabetes mellitus.",
+    "human_reference": "Classifying diabetes was originally limited to either juvenile-onset diabetes mellitus, or type 1 diabetes mellitus, and adult-onset diabetes mellitus, or type 2 diabetes mellitus.",
+    "baseline_output": "The classification of diabetes has changed over time. Originally, it was divided into two categories: juvenile-onset diabetes (type 1) and adult-onset diabetes (type 2). Now, there are three main types: type 1 diabetes, which affects children and young adults; type 2 diabetes, which affects older people; and gestational diabetes, which occurs during pregnancy.",
+    "fine_tuned_output": "The original classification of diabetes was limited to two types called juvenile-onset diabetes and adult-onset diabetes."
+  },
+  {
+    "source": "This has grown to a recognition of more than 50 subcategories caused by various pathogenic mechanisms or accompanying other diseases and syndromes.",
+    "human_reference": "Classification of diabetes now recognizes over 50 subcategories by disease-causing biological processes or accompanying diseases.",
+    "baseline_output": "This classification includes over 50 distinct categories resulting from various pathogens or accompanying conditions and syndromes.",
+    "fine_tuned_output": "This is now recognized as over 50 different types of conditions caused by various causes or associated with other diseases and syndromes."
+  },
+  {
+    "source": "The diagnosis of diabetes has evolved from physician recognition of typical symptoms to detection of ambient hyperglycemia and, thence, to the definition of excessive plasma glucose levels after an overnight fast and/or following challenge with a glucose load (oral glucose tolerance test or OGTT), and more recently, by measurement of glycated hemoglobin (A1c).",
+    "human_reference": "Diagnosing diabetes has grown from a physician recognizing typical signs to detecting high blood sugar to defining high blood sugar after an overnight fast and/or tolerance test with glucose (a simple sugar). Recently, the diagnosis involves measuring glycated hemoglobin (A1c), an iron-rich protein in blood joined to a sugar.",
+    "baseline_output": "The diagnosis of diabetes has changed from recognizing typical symptoms to detecting high blood sugar levels during sleep and after eating a special food called a glucose drink. It also now involves measuring how much sugar is in your blood over time.",
+    "fine_tuned_output": "Diabetes is now diagnosed based on the presence of high blood sugar levels, rather than just recognizing typical symptoms."
+  },
+  {
+    "source": "Screening has uncovered a much higher prevalence of diabetes in the United States and elsewhere, as well as its enormous public health impact.",
+    "human_reference": "Testing now shows higher widespreadness of and enormous public health impact of diabetes in the United States and elsewhere.",
+    "baseline_output": "Screening has found that more people have diabetes than before, which is having a big effect on how many people need to be treated or help them live longer.",
+    "fine_tuned_output": "Screening for diabetes has found more people with diabetes than previously thought. This is having an enormous effect on public health."
+  },
+  {
+    "source": "Modern testing has defined individuals at high risk for the development of diabetes and pregnant women whose fetuses are at increased risk for mortality and morbidity.",
+    "human_reference": "Current testing has detected those at risk for diabetes and pregnant women whose fetuses are at higher risk for death and illness.",
+    "baseline_output": "Modern tests help identify people who might get sick later in life or have babies who will be very sick.",
+    "fine_tuned_output": "Modern tests have identified people who are more likely to develop diabetes or pregnant women whose babies are more likely to die or become ill."
+  },
+  {
+    "source": "Diagnostic glycemic criteria for presymptomatic diabetes have been set using diabetic retinopathy as a specific complication of the disease: A1c \u22656.5%; fasting plasma glucose (FPG) \u2265126 mg/dL; or plasma glucose measured 2 hours after an OGTT (2-hour PG) \u2265200 mg/dL.",
+    "human_reference": "Diagnostic glycemic (blood sugar) criteria for before-symptom diabetes have been set using diabetic retinopathy (eye-affecting diabetes) as a specific effect of the disease: A1c \u22656.5%; fasting plasma glucose (FPG) \u2265126 mg/dL; or blood glucose (sugar) measured 2 hours after an OGTT (2-hour PG) \u2265200 mg/dL.",
+    "baseline_output": "Diagnostic criteria for prediabetes have been established based on the presence of diabetic retinopathy as a symptom of the condition: An A1C level greater than 6.5%, fasting blood sugar (FFG) at least 126 mg/dL, or a blood glucose measurement taken two hours after an oral glucose tolerance test (OGTT) at least 200 mg/dL.",
+    "fine_tuned_output": "The diagnostic criteria for pre-diabetes have been established by measuring blood sugar levels."
+  },
+  {
+    "source": "For patients with typical symptoms, a random plasma glucose \u2265200 mg/dL is diagnostic.",
+    "human_reference": "For patients with typical symptoms, a random blood glucose \u2265200 mg/dL is diagnostic.",
+    "baseline_output": "For people who have normal blood sugar levels, a blood test showing a high level of glucose (more than 200 milligrams per deciliter) can be a sign of diabetes.",
+    "fine_tuned_output": "For people who have typical symptoms, blood sugar levels of 200 mg/dL or higher are considered abnormal."
+  },
+  {
+    "source": "The 2-hour PG yields the highest prevalence and A1c the lowest.",
+    "human_reference": "The 2-hour PG (a type of blood sugar measurement) yields the highest prevalence and A1c (another test for diabetes) the lowest.",
+    "baseline_output": "The two-hour pregnancy period results in the highest rate of gestational diabetes (PG) and lowest average blood glucose levels (A1c).",
+    "fine_tuned_output": "The two hours after taking the drug (PG) has the highest number of people who have high blood sugar levels and the lowest level of blood glucose."
+  },
+  {
+    "source": "A1c is the most convenient and practical test, requiring no preparation, is analytically superior, and has the lowest intraindividual variation.",
+    "human_reference": "A1c is the most convenient and practical test, needing no preparation, is analytically betterr, and has the lowest variation.",
+    "baseline_output": "An A1c test is easy to use and doesn't need any special preparation. It's very accurate and gives results that are close to what people actually have. This makes it the best choice for checking blood sugar levels.",
+    "fine_tuned_output": "A1C is the easiest and most practical way to measure blood sugar levels. It's more accurate than other tests, and it doesn't require any special preparation."
+  },
+  {
+    "source": "It is more expensive than the FPG, but the same or less than the OGTT.",
+    "human_reference": "It is more expensive than the FPG (a diabetes test), but the same or less than the OGTT (a diabetes test).",
+    "baseline_output": "It's more costly compared to the FPG, but similar to the OGTT.",
+    "fine_tuned_output": "It costs more money to test blood sugar levels than it does to take a glucose tolerance test (OGTT)."
+  },
+  {
+    "source": "The 2-hour PG is the most burdensome to the patient and has the highest intraindividual variation.",
+    "human_reference": "The 2-hour PG is the most burdensome to the patient and has the highest variation.",
+    "baseline_output": "The two-hour physical therapy group (PG) is very tiring for the patient and has the greatest individual variability among patients.",
+    "fine_tuned_output": "The two-hour post-gastric proton pump inhibitor (PG) is the most difficult for patients to take and has the greatest individual variability."
+  },
+  {
+    "source": "Standardized measurement of A1c is not available everywhere.",
+    "human_reference": "Comparable measurement of A1c is not available everywhere.",
+    "baseline_output": "Standardized measurement of hemoglobin levels isn't universally available.",
+    "fine_tuned_output": "Standardized measurement of blood sugar levels is not available everywhere."
+  },
+  {
+    "source": "Confirmation of an abnormal test with the same test is recommended.",
+    "human_reference": "Checking an abnormal test with the same test is recommended.",
+    "baseline_output": "Confirmation of an abnormal test should be done again with the same test.",
+    "fine_tuned_output": "Confirmation of an abnormal test with the same test is recommended."
+  },
+  {
+    "source": "Studies in various populations show inconsistency among the glycemic tests.",
+    "human_reference": "Studies in various groups show inconsistency among the glycemic tests.",
+    "baseline_output": "Studies reveal differences in how different groups use blood sugar tests to measure their glucose levels.",
+    "fine_tuned_output": "Studies show inconsistent results among different groups of people."
+  },
+  {
+    "source": "Of people meeting the A1c criterion, 27%\u201398% meet plasma glucose criteria.",
+    "human_reference": "Of people meeting the A1c criterion, 27%\u201398% meet plasma glucose criteria.",
+    "baseline_output": "Of individuals who have an A1c level of 10%, 27-98% also have plasma glucose levels within normal ranges.",
+    "fine_tuned_output": "Of people who have blood sugar levels within the normal range, 27-98% also have blood sugar levels above the normal range."
+  },
+  {
+    "source": "Of people meeting plasma glucose criteria, 17%\u201378% meet the A1c criterion.",
+    "human_reference": "Of people meeting plasma glucose criteria, 17%\u201378% meet the A1c criterion.",
+    "baseline_output": "Of individuals who have high blood sugar levels (plasma glucose), about 20-35% of them also have an A1c level within normal range.",
+    "fine_tuned_output": "Of people who have high blood sugar levels (high blood glucose), 17-78% also have low blood sugar (low blood glucose)."
+  },
+  {
+    "source": "These discrepancies occur because each test measures different aspects of hyperglycemia that may vary among patients.",
+    "human_reference": "These discrepancies occur because each test measures different aspects of hyperglycemia (high blood sugar) that may vary among patients.",
+    "baseline_output": "These differences arise due to how each test assesses different aspects of high blood sugar levels affecting different people.",
+    "fine_tuned_output": "These differences happen because each test measures different parts of high blood sugar levels that can change from person to person."
+  },
+  {
+    "source": "While the risk of future diabetes is continuously associated with plasma glucose and A1c, the areas between the upper limits of normal and the diabetes cutpoints have been called \u201cprediabetes\u201d or \u201chigh risk for diabetes.\u201d These have been defined categorically as A1c 6.0%\u20136.4% or 5.7%\u20136.4%; impaired fasting glucose (IFG), FPG 100\u2013125 mg/dL; and impaired glucose tolerance (IGT), 2-hour PG 140\u2013199 mg/dL. A1c 6.0%\u20136.4% increases the odds ratio (OR) for progression to diabetes (OR 12.5\u201316) more than the range of 5.7%\u20136.4% (OR 9.2).",
+    "human_reference": "While the risk of future diabetes is continuously associated with plasma glucose and A1c, the areas between the upper limits of normal and the diabetes cutpoints have been called \u201cprediabetes\u201d or \u201chigh risk for diabetes.\u201d These have been defined categorically as A1c 6.0%\u20136.4% or 5.7%\u20136.4%; impaired fasting glucose (IFG), FPG 100\u2013125 mg/dL; and impaired glucose tolerance (IGT), 2-hour PG 140\u2013199 mg/dL. A1c 6.0%\u20136.4% increases the odds ratio (OR) for progression to diabetes (OR 12.5\u201316) more than the range of 5.7%\u20136.4% (OR 9.2).",
+    "baseline_output": "While the risk of developing type 2 diabetes continues to increase, there's a different stage of health known as prediabetes or high-risk for diabetes. This area includes having blood sugar levels around 6.0% to 6.4%, or 5.7% to 6.4%. People with these numbers might also have low levels of another test called fasting glucose (FPG) at 100 to 125 milligrams per deciliter. If your",
+    "fine_tuned_output": "While the risk of developing diabetes is constantly linked to blood sugar levels and A1C, the area between the upper limit of normal and the diabetes cut-off has been called \"pre-diabetes\" or \"high-risk for diabetes.\" These have been defined categorically as blood sugar levels 6.0% \u2013 6.4% or 5.7% \u2013 6.4%; impaired fasting glucose (IFG); and impaired glucose tolerance (IGT), 100-1"
+  },
+  {
+    "source": "In U.S. studies, the incidence of type 2 diabetes averages approximately 6% per year in people with IGT and can reverse spontaneously.",
+    "human_reference": "In U.S. studies, the incidence of type 2 diabetes averages approximately 6% per year in people with IGT and can reverse spontaneously.",
+    "baseline_output": "In American studies, about 6% of people who have Impaired Glucose Tolerance (IGT) develop Type 2 diabetes, which often goes away on its own over time.",
+    "fine_tuned_output": "In U.S. studies, the rate of type 2 diabetes is about 6% per year among people with impaired glucose tolerance (IGT) and can be reversed spontaneously."
+  },
+  {
+    "source": "IFG is more prevalent than IGT in the United States, though IGT rises more sharply with age.",
+    "human_reference": "IFG is more prevalent than IGT in the United States, though IGT rises more sharply with age.",
+    "baseline_output": "If you have Impaired Glucose Tolerance (IFG) more frequently than Impaired Fasting Glucose (IGT), but IGF tends to increase more rapidly as you get older.",
+    "fine_tuned_output": "If you have insulin resistance (IFG), it's more common than type 2 diabetes (IGT) in the US, but type 2 diabetes gets worse as people get older."
+  },
+  {
+    "source": "IFG increases the risk of future diabetes to various degrees in different countries, with odds ratios ranging from 2.9 to 18.5.",
+    "human_reference": "IFG increases the risk of future diabetes to various degrees in different countries, with odds ratios ranging from 2.9 to 18.5.",
+    "baseline_output": "If you have high levels of a protein called insulin-generating gene (IFG), it can make you more likely to get type 2 diabetes later on. Some people might be at higher risk than others depending on where they live. The chances of getting type 2 diabetes increase by about 2.9 times or 18.5 times for every 100 people who have this problem.",
+    "fine_tuned_output": "If you have high blood sugar (IGF), your chances of developing type 2 diabetes increase."
+  },
+  {
+    "source": "The local, systemic, and referred causes of finger pain are generally recognizable by historical features and physical examination findings, although radiographs and laboratory evaluation are often required to support the diagnostic impression.",
+    "human_reference": "The causes of finger pain can usually be found by learning about the duration and severity of the problem and doing a physical examination. However, x-rays and lab tests are often used to identify the cause of the pain.",
+    "baseline_output": "The main reasons for finger pain include local, systemic, and referred conditions. These can be identified through history and physical exams, but X-rays and lab tests may also help confirm the diagnosis.",
+    "fine_tuned_output": "The cause of finger pain is usually easy to identify based on history and physical exam results, but sometimes additional tests may be needed to confirm the diagnosis."
+  },
+  {
+    "source": "Most minor traumatic causes of finger pain require only conservative management, including immobilization followed by exercise.",
+    "human_reference": "Most minor traumatic injuries that cause finger pain only need non-invasive (no surgery) therapy, such as resting followed by exercise.",
+    "baseline_output": "Most minor injuries causing finger pain can be managed without surgery or medication, focusing on rest, ice, compression, and elevation (RICE) techniques combined with gentle exercises to improve mobility.",
+    "fine_tuned_output": "Most minor injuries to fingers can be treated without surgery or other invasive procedures."
+  },
+  {
+    "source": "Infectious causes of finger pain include cellulitis, tendinitis, paronychia, felon, and infectious emboli, which generally require antibiotics with or without drainage.",
+    "human_reference": "Finger pain caused by an infection (germs that build in the body causing illness) usually require medicines that fight bacteria called antibiotics. A process called drainage that removes extra fluid from a wound is sometimes used with antibiotics.",
+    "baseline_output": "Infections causing finger pain include cellulitis, tendinitis, paronychia, felon, and infections from blood clots (emboli). These conditions usually need special medicine to fight them.",
+    "fine_tuned_output": "Infections can cause finger pain. These infections include cellulitis (a bacterial infection), tendonitis (inflammation of the tendon), perniosis (inflammation of the nail bed), felon (an inflammation of the nails), and infectious emboli (blood clots). These infections usually need antibiotics to treat them."
+  },
+  {
+    "source": "Certain patients with finger pain resulting from infection should be referred to a hand surgeon.",
+    "human_reference": "Sometimes patients with finger pain from an infection will see a hand surgeon.",
+    "baseline_output": "Patients experiencing finger pain due to an infection should see a hand surgeon for treatment.",
+    "fine_tuned_output": "Certain patients with finger pain caused by an infection should see a hand doctor."
+  },
+  {
+    "source": "Vascular and ischemic causes of finger pain represent true emergencies, because tissue viability is dependent on prompt intervention.",
+    "human_reference": "Limited or no blood flow to or through the tissues in the finger can cause finger pain, are signs of a true emergency, and require immediate attention to prevent more damage to the tissues.",
+    "baseline_output": "Finger pain caused by vascular or ischemic issues should be treated immediately to ensure tissue survival, as it's crucial for maintaining organ function.",
+    "fine_tuned_output": "Vascular and ischemic (lack of blood flow) causes of finger pain are serious because tissue viability depends on timely treatment."
+  },
+  {
+    "source": "Whereas any sensory neuropathy may present with finger pain, carpal tunnel syndrome is among the most common.",
+    "human_reference": "Patients with nerve damage may have finger pain. Carpal tunnel syndrome (pain or tingling in the hand or arm caused by a pinched wrist nerve) is a common example of pain caused by nerve damage.",
+    "baseline_output": "Finger pain can be caused by sensory neuropathy, but carpal tunnel syndrome is more commonly associated with it.",
+    "fine_tuned_output": "Carpal tunnel syndrome is one of the most common types of nerve damage caused by diabetes."
+  },
+  {
+    "source": "Systemic rheumatic disease, such as rheumatoid arthritis or vasculitis, may begin with finger pain.",
+    "human_reference": "Diseases that can cause your immune system to attack your joints, muscles, bones and organs (called systemic rheumatic diseases) can begin with finger pain.",
+    "baseline_output": "Systemic diseases like rheumatoid arthritis or vasculitis can start with finger pain.",
+    "fine_tuned_output": "Systemic diseases like rheumatoid arthritis or vasculitis can start with finger pain."
+  },
+  {
+    "source": "In addition, such pain may be the first manifestation of a serious systemic illness, as in hypertrophic pulmonary osteoarthropathy.",
+    "human_reference": "In addition, finger pain may be the first sign of a more serious illness, such as in hypertrophic pulmonary osteoarthropathy (a rare disease with irritation around the bone and enlarged fingertips).",
+    "baseline_output": "In other words, this pain might indicate a more serious problem like a lung disease called hypertrophic pulmonary osteoarthropathy.",
+    "fine_tuned_output": "In addition, such pain may be the first symptom of a serious systemic illness, as in hypertrophic pulmonary osteoarthropathy."
+  },
+  {
+    "source": "Reflex sympathetic dystrophy is an example of referred pain, presumably by way of neural mechanisms.",
+    "human_reference": "Reflex sympathetic dystrophy (a disease causing long-lasting pain in one or more limbs) is an example of when an injury in one part to the body causes pain in a different part of the body.",
+    "baseline_output": "Reflex sympathetic dystrophy involves pain sensations being transmitted to the brain through neural pathways.",
+    "fine_tuned_output": "Reflex sympathetic dystrophy is an example of pain caused by nerve signals from other parts of the body."
+  },
+  {
+    "source": "Certain infectious, traumatic, and ischemic causes of finger pain must be diagnosed promptly to avoid significant morbidity; depending upon the cause of the symptoms, referral to a hand surgeon, rheumatologist, or neurologist may be appropriate.",
+    "human_reference": "Certain infections, traumatic injuries, and blood flow problems that cause finger pain must be identified quickly to prevent long-term or more serious damage. In some cases, going to a hand surgeon, a rheumatologist (doctor who treats arthritis and other joint, muscle, and bone diseases), or a neurologist (brain and nerve doctor) is needed.",
+    "baseline_output": "Certain conditions like infections, trauma, and strokes can make fingers hurt. If you have these problems, it's important to see a doctor right away so they can help fix them quickly. Depending on what makes your hands feel funny, you might need to go to a doctor who specializes in hands (a hand surgeon), doctors who look at your whole body (a rheumatologist), or someone who studies brain and spinal nerves (a neurologist).",
+    "fine_tuned_output": "Certain conditions causing finger pain must be treated quickly to prevent serious problems. Depending on the cause of the symptoms, patients should see a doctor who specializes in hands and fingers (hand surgeon), doctors who treat arthritis (rheumatologist), or doctors who diagnose brain or spinal cord problems (neurologists)."
+  },
+  {
+    "source": "Symptomatic and functional improvement may also be hastened by the input of an occupational therapist.",
+    "human_reference": "Progress in reducing pain and improving movement in the finger may come faster with the help of an occupational therapist, people who help patients with injuries, illnesses, and disabilities build or restore their abilities to do everyday tasks in life.",
+    "baseline_output": "Symptoms can improve faster when therapists help people use their bodies more effectively.",
+    "fine_tuned_output": "Symptoms and function can also improve if someone is taught how to use assistive devices or equipment."
+  },
+  {
+    "source": "Objective: To identify through case study the presentation and possible pathophysiological cause of complex regional pain syndrome and its preferential response to stellate ganglion blockade.",
+    "human_reference": "The objective of this case report (a summary of an individual patient's symptoms, diagnosis, and treatment) is to identify the sign or symptoms and causes of complex regional pain syndrome (a form of ongoing pain that affects the arm or leg) and if a pain treatment called stellate ganglion blockade (an injection of medication into nerves at the front of the neck that can relieve pain) has any effect on the pain.",
+    "baseline_output": "Objective: To learn about how people with this condition react to a special treatment called stellate ganglion block.",
+    "fine_tuned_output": "Objective: To identify how complex regional pain syndrome is presented and what causes it."
+  },
+  {
+    "source": "Setting: Complex regional pain syndrome can occur in an extremity after minor injury, fracture, surgery, peripheral nerve insult or spontaneously and is characterised by spontaneous pain, changes in skin temperature and colour, oedema, and motor disturbances.",
+    "human_reference": "Complex regional pain syndrome can occur in the arms or legs after a minor injury, fracture, surgery, or nerve damage. It appears as sudden, random pain, changes in skin temperatures and color, swelling in ankles, feet or legs, and uncontrollable movements in the body.",
+    "baseline_output": "Setting: Complex regional pain syndrome can happen to people who have had injuries to their body parts, like breaking bones or having surgery on them. It causes pain in one part of the body, changes in how warm or cold it feels, swelling around it, and sometimes problems moving parts of the body.",
+    "fine_tuned_output": "Complex regional pain syndrome (CRPS) occurs when pain starts in one part of your body after a small injury, surgery, or other problem. The symptoms include pain, changes in skin temperature and color, swelling, and muscle weakness."
+  },
+  {
+    "source": "Pathophysiology is likely to involve peripheral and central components and neurological and inflammatory elements.",
+    "human_reference": "Disease-related physical changes are likely to involve outer and central parts, nerve-related elements, and inflammatory elements, the body's natural response to injury or infection.",
+    "baseline_output": "Pathophysiology involves both peripheral and central components as well as neurological and inflammatory factors.",
+    "fine_tuned_output": "Pathology may involve both peripheral and central components and inflammation."
+  },
+  {
+    "source": "There is no consistent approach to treatment with a wide variety of specialists involved.",
+    "human_reference": "There is no consistent approach to treatment with a wide variety of specialists involved.",
+    "baseline_output": "There's no one-size-fits-all way to care for someone who sees many different doctors.",
+    "fine_tuned_output": "There is no one-size-fits-all way to treat this condition."
+  },
+  {
+    "source": "Diagnosis can be difficult, with over-diagnosis resulting from undue emphasis placed upon pain disproportionate to an inciting event despite the absence of other symptoms or under-diagnosed when subtle symptoms are not recognised.",
+    "human_reference": "Diagnosis can be difficult. Sometimes it is over-diagnosed (diagnosis of a medical condition that would never have caused any symptoms or problems) from too much attention on the pain even though other symptoms are not present. Sometimes it can be under-diagnosed (diagnosed less often than its occurrence) when less obvious symptioms are not recognized.",
+    "baseline_output": "Diagnosis is challenging, especially when there's too much focus on pain because it seems more serious than it really is. Even though some symptoms might not show up right away, doctors need to look closely at all signs to make sure everything is okay.",
+    "fine_tuned_output": "Diagnosis is hard because doctors often diagnose people based on their pain rather than what caused it. Doctors may also miss signs of illness if they don't see them right away."
+  },
+  {
+    "source": "The International Association for the Study of Pain supports the use of sympathetic blocks to reduce sympathetic nervous system overactivity and relieve complex regional pain symptoms.",
+    "human_reference": "A professional medical association for the study of pain supports the kind of pain block used in stellate ganglion blockade to reduce sensory nerves and relieve pain sympoms.",
+    "baseline_output": "The International Association for the Study of Pain recommends using sympathetic blocks to decrease excessive activity in the sympathetic nervous system and alleviate pain caused by complex regions.",
+    "fine_tuned_output": "The International Association for the Study of Pain supports using drugs called sympathetics to reduce the activity of the sympathetic nervous system and relieve complex pain symptoms."
+  },
+  {
+    "source": "Educational reviews promote stellate ganglion blockade as beneficial.",
+    "human_reference": "Educational reviews promote stellate ganglion blockade as beneficial.",
+    "baseline_output": "Educational reviews help block the star-shaped ganglia, which is good for you.",
+    "fine_tuned_output": "Educational reviews help block the pain signals from the brain to the spinal cord."
+  },
+  {
+    "source": "Three blocks were given at 8, 10 and 13 months after the initial injury under local anaesthesia and sterile conditions.",
+    "human_reference": "Three blocks (injections) were given at 8, 10 and 13 months after the initial injury under local anaesthesia and clean conditions.",
+    "baseline_output": "Three blocks of medicine were distributed at 8, 10, and 13 months after the initial injury using local anesthesia and sterile conditions.",
+    "fine_tuned_output": "Three blocks of pain medicine were given to patients who had been injured by an accident. The three blocks were given at different times after the accident."
+  },
+  {
+    "source": "Physiotherapeutic input was delivered under block conditions to maximise joint and tissue mobility and facilitate restoration of function.",
+    "human_reference": "Physical therapy was provided after the patient received an injection to allow more movement of the joint and tissues and to help restore use of the injured finger.",
+    "baseline_output": "Physiotherapy provided targeted inputs during controlled settings to enhance joint movement and aid recovery of bodily functions.",
+    "fine_tuned_output": "Physiotherapy is provided under controlled conditions to maximize joint and tissue movement and promote recovery of function."
+  },
+  {
+    "source": "Conclusion: This case demonstrates the need for practitioners from all disciplines to be able to identify the clinical characteristics of complex regional pain syndrome to instigate immediate treatment and supports the notion that stellate ganglion blockade is preferable to upper limb intravenous regional anaesthetic block for refractory index finger pain associated with complex regional pain syndrome.",
+    "human_reference": "This case shows that healthcare providers need to be able to identify clinical signs of complex regional pain syndrome to start treatment immediately. It also shows that stellate ganglion blockade is a preferable method to an IV of local anaesthetic (one-time injection of medicine that numbs a small area of the body) in the upper arm to help finger pain associated with complex regional pain syndrome.",
+    "baseline_output": "Conclusion: This example illustrates how specialists across various fields must be proficient in recognizing the specific symptoms of complex regional pain syndrome to initiate effective treatments immediately. It also underscores the advantage of using stellate ganglion block over upper limb IV regional anesthesia for patients experiencing persistent finger pain linked to this condition.",
+    "fine_tuned_output": "This case shows the importance of doctors from different fields being able to recognize the symptoms of complex regional pain syndrome (CRPS) to start treatment quickly."
+  },
+  {
+    "source": "Background and aims: In previous studies, we successfully applied Low Level Laser Therapy (LLLT) in patients with non-specific chronic pain of the shoulder joint and lower back.",
+    "human_reference": "To treat patients with chronic shoulder and low back pain, previous studies have successfully used a treatment called low level laser therapy (LLLT), a laser light used at a low level and applied to the skin of the body to reduce pain or inflammation and help heal wounds, tissues, and nerves.",
+    "baseline_output": "Background and aims: In earlier research, we used Low Level Laser Therapy to treat patients suffering from non-specific chronic pain in their shoulders and lower backs.",
+    "fine_tuned_output": "Background and aims: We have used low-level laser therapy to treat patients with non-specific chronic pain of the shoulder joint and lower back."
+  },
+  {
+    "source": "The purpose of the present study was to assess the effectiveness of LLLT for chronic joint pain of the elbow, wrist, and fingers.",
+    "human_reference": "The purpose of this current study is to find out if LLLT also helps patients with chronic joint pain of the elbow, wrist, and fingers.",
+    "baseline_output": "The aim of this research is to determine if Low-Lying Ligament Transplant (LLLT) can help relieve chronic elbow, wrist, and finger pain.",
+    "fine_tuned_output": "The purpose of this study is to see if low-impact low-level trauma therapy (LLLT) can help people who have chronic joint pain in their elbows, wrists, or fingers."
+  },
+  {
+    "source": "Subjects and methods: Nine male and 15 female patients with chronic joint pain of the elbow, wrist, or fingers, who were treated at the rehabilitation outpatient clinic at our hospital from April, 2007 to March, 2009 were enrolled in the study.",
+    "human_reference": "This study included 9 male and 15 female patients with chronic joint pain in the elbow, wrist, or fingers.",
+    "baseline_output": "Nine men and women with chronic joint pain of the elbows, wrists, or fingers, who were seen by doctors at a special clinic for their treatment from April 2007 to March 2009, were part of this study.",
+    "fine_tuned_output": "Nine men and 15 women with chronic joint pain of the elbow, wrist, or fingers, who were treated at the rehabilitation outpatient clinic at our hospital from April, 2007 to March, 2009 were enrolled in the study."
+  },
+  {
+    "source": "Each tender point and three points around it were irradiated with laser energy.",
+    "human_reference": "The tender point (specific area of pain) and three points surrounding the pain were exposed to the LLLT therapy light.",
+    "baseline_output": "Each of the tender points and three additional points surrounding them was exposed to intense light using a laser beam.",
+    "fine_tuned_output": "Each of the 10 points on the skin was treated with laser energy."
+  },
+  {
+    "source": "Each point was irradiated twice for 20 s per treatment, giving a total of three minutes for all 4 points.",
+    "human_reference": "Each area was exposed two times for 20 seconds per treatment, giving a total of three minutes for all 4 points.",
+    "baseline_output": "Each point received two treatments each lasting 20 seconds, resulting in a total of three minutes for all four points combined.",
+    "fine_tuned_output": "Each point was treated twice for 20 seconds each time, giving a total of 3 minutes for all four points."
+  },
+  {
+    "source": "Patients visited the clinic twice a week, and were evaluated after four weeks of treatment.",
+    "human_reference": "Patients visited the clinic twice a week, and were evaluated after 4 weeks of treatment with LLLT (laser therapy).",
+    "baseline_output": "Patients visit the clinic twice a week to get checked out every four weeks for their health issues.",
+    "fine_tuned_output": "Patients visit the clinic twice a week to get checked out after four weeks of treatment."
+  },
+  {
+    "source": "Pain was evaluated with a Visual Analogue Scale (VAS).",
+    "human_reference": "A tool called the Visual Analogue Scale (VAS) was used to measure pain by asking patients to report how intense their pain is on a scale.",
+    "baseline_output": "Pain was measured using the Visual Analog Scale (VAS).",
+    "fine_tuned_output": "Pain was measured using a visual analogue scale (VAS)"
+  },
+  {
+    "source": "Statistical analysis of the VAS scores after laser irradiation was performed with Wilcoxon's signed rank sum test, using SPSS Ver.17.",
+    "human_reference": "The study analyzed VAS scores (how patients described their pain) after they received the LLLT laser treatment.",
+    "baseline_output": "The statistical analysis of the VAS scores following laser irradiation was conducted using the Wilcoxon's signed rank sum test, which is implemented in SPSS version 17.",
+    "fine_tuned_output": "The statistical analysis of the VAS scores after laser irradiation was done using the Wilcoxon signed rank sum test, using SPSS 17."
+  },
+  {
+    "source": "Results: All VAS scores were totaled and statistically analyzed.",
+    "human_reference": "All VAS scores that document pain intensity were totaled and analyzed.",
+    "baseline_output": "Results: The total of all VAS scores was calculated and statistically evaluated.",
+    "fine_tuned_output": "All results were summed up and compared."
+  },
+  {
+    "source": "The average VAS score before irradiation was 59.2\u00b112.9, and 33.1\u00b112.2 after the irradiation, showing a significant improvement in VAS score (p<0.001) after treatment.",
+    "human_reference": "There was significant improvement in how much pain patients felt after they received the treatment.",
+    "baseline_output": "The average VAS score before radiation therapy was 59.2 points higher than before, rising to 33.1 points higher after treatment. This improvement was statistically significant at p < 0.001.",
+    "fine_tuned_output": "The average pain scale before radiation therapy was 59.2 points, and 33.1 points after treatment, indicating an improvement in pain scores."
+  },
+  {
+    "source": "The treatment effect lasted for about one and a half days in the case of wrist pain, epicondylitis lateralis (tennis elbow), and carpal tunnel syndrome.",
+    "human_reference": "The effect of the laser treatment lasted for about one and half days for patients with wrist pain, tennis elbow, and carpal tunnel syndrome (pinched nerve in the wrist).",
+    "baseline_output": "The treatment took about 1.5 days to work on wrist pain, tennis elbow, and carpal tunnel syndrome.",
+    "fine_tuned_output": "The treatment lasted about 1.5 days in cases of wrist pain, tennis elbow, and carpal tunnel syndrome."
+  },
+  {
+    "source": "In other pain entities, it lasted for about three to fifteen hours.",
+    "human_reference": "In patients with other types of pain, the effect lasted for about 3-15 hours.",
+    "baseline_output": "In situations where people experience pain, this can last anywhere from just a few hours to several days.",
+    "fine_tuned_output": "In other types of pain, it lasts from 3-15 hours."
+  },
+  {
+    "source": "No change in the range of motion (ROM) was seen in any of the 24 subjects.",
+    "human_reference": "There was no change in how far patients could move or stretch the injured part of the body after the treatment.",
+    "baseline_output": "No significant difference in ROM was observed among the 24 participants.",
+    "fine_tuned_output": "No changes were seen in the range of motion (ROM) in any of the 24 patients."
+  },
+  {
+    "source": "Conclusion: We concluded that LLLT at the wavelength and parameters used in the present study was effective for chronic pain of the elbow, wrist, and fingers.",
+    "human_reference": "This study found that low level laser therapy was helpful for chronic pain of the elbow, wrist, and fingers.",
+    "baseline_output": "Conclusion: The study found that Low Level Laser Therapy (LLLT) at wavelengths and parameters suitable for this condition was effective for managing chronic pain in the elbows, wrists, and fingers.",
+    "fine_tuned_output": "We conclude that low-level laser therapy (LLLT) at wavelengths and parameters used in our study is effective for chronic pain of the elbow, wrist, and fingers."
+  },
+  {
+    "source": "Upper extremity neuropathic pain states greatly impact patient functionality and quality of life, despite appropriate surgical intervention.",
+    "human_reference": "Pain felt in the arm that is caused by damaged nerves or a weakening nervous sytem is called neuropathic pain and can greatly impact movement and quality of life, even after a patient has surgery.",
+    "baseline_output": "Upper extremity neuropathic pain can significantly affect a person's daily activities and overall well-being, even after successful surgery to treat the condition.",
+    "fine_tuned_output": "Neuropathy affects patients' ability to function and live well despite surgery."
+  },
+  {
+    "source": "This article focuses on the advanced therapies that may improve pain care, including advanced treatment strategies that are available.",
+    "human_reference": "This article focuses on the new therapies that may improve pain care, including new treatment plans that are available.",
+    "baseline_output": "This article discusses innovative methods to enhance pain management, such as cutting-edge treatments that have been proven effective.",
+    "fine_tuned_output": "This article looks at ways to treat pain better, including treatments that are more advanced."
+  },
+  {
+    "source": "The article also surveys therapies on the immediate horizon, such as spinal cord stimulation, peripheral nerve stimulation, and dorsal root ganglion spinal cord stimulation.",
+    "human_reference": "This article examines new and upcoming therapies, such as spinal cord simulation (electrical treatment to the spinal cord), peripheral nerve simulation (electrical treatment to the nerves), and dorsal root ganglion spinal cord stimulation (electrical treatment to spine cells).",
+    "baseline_output": "The article examines various treatments currently available, including spinal cord stimulation, peripheral nerve stimulation, and dorsal root ganglion spinal cord stimulation.",
+    "fine_tuned_output": "The article also looks at treatments for immediate future use, like spinal cord stimulation, peripheral nerve stimulation, and dorsal root ganglion spinal cord stimulation."
+  },
+  {
+    "source": "As these therapies evolve, so too will their placement within the pain care algorithm grounded by a foundation of evidence to improve patient safety and management of patients with difficult neuropathic pain.",
+    "human_reference": "As these therapies evolve, so too will their placement within pain care plans.",
+    "baseline_output": "As these treatments change, they'll be placed where doctors think they're best for helping people feel better when they have pain from nerve problems.",
+    "fine_tuned_output": "As these treatments change, they will also be placed within the pain care algorithm based on evidence to improve patient safety and manage difficult neuropathic pain."
+  },
+  {
+    "source": "Background: Hand osteoarthritis (OA) is a prevalent joint disease that may lead to pain, stiffness and problems in performing hand-related activities of daily living.",
+    "human_reference": "Hand osteoarthritis is a common joint disease that may lead to pain, stiffness and problems in performing hand-related activities of daily living.",
+    "baseline_output": "Background: Osteoarthritis, which affects joints like your hands, can be very common. It might cause pain, stiffness, and difficulties doing everyday tasks with your hands.",
+    "fine_tuned_output": "Background: Hand OA is a common joint disease that can cause pain, stiffness, and difficulty in doing daily activities related to hands."
+  },
+  {
+    "source": "Currently, no cure for OA is known, and non-pharmacological modalities are recommended as first-line care.",
+    "human_reference": "Currently, no cure for osteoarthritis is known, and using treatment methods that do not involve medications for pain are recommended as first-line care.",
+    "baseline_output": "Currently, there's no treatment for osteoarthritis (OA) yet, and doctors suggest trying non-medical ways to make you feel better first.",
+    "fine_tuned_output": "Currently, there is no treatment to stop or slow down the progression of osteoarthritis (OA). Non-pharmacological treatments include exercise, weight loss, and pain management."
+  },
+  {
+    "source": "A positive effect of exercise in hip and knee OA has been documented, but the effect of exercise on hand OA remains uncertain.",
+    "human_reference": "A positive effect of exercise in hip and knee osteoarthritis has been documented, but the effect of exercise on hand osteoarthritis remains uncertain.",
+    "baseline_output": "Exercise can help improve joint health, including hips and knees, but studies show it may not be as effective for hands.",
+    "fine_tuned_output": "Exercise may help reduce pain and swelling in hip and knee osteoarthritis (OA), but it is unclear if exercise also helps reduce pain and swelling in hand OA."
+  },
+  {
+    "source": "Authors' conclusions: When we pooled results from five studies, we found low-quality evidence showing small beneficial effects of exercise on hand pain, function and finger joint stiffness.",
+    "human_reference": "Researchers reviewed results from 5 studies and found low-quality evidence (the findings are difficult to interpret or are considered weak) showing small helpful effects of exercise on hand pain, function and finger joint stiffness.",
+    "baseline_output": "Authors concluded: When we combined data from five studies, we discovered that exercising regularly can help reduce hand pain, improve function, and lessen finger joint stiffness.",
+    "fine_tuned_output": "When we combined data from five studies, we found low-quality evidence showing small benefits of exercise on hand pain, function and finger joint stiffness."
+  },
+  {
+    "source": "Estimated effect sizes were small, and whether they represent a clinically important change may be debated.",
+    "human_reference": "The relationship between hand osteoarthritis and exercise were small in these studies, and it is not clear if any medical practices should change based on these 5 studies.",
+    "baseline_output": "Estimated effects were modest, and their significance might vary.",
+    "fine_tuned_output": "Estimates of effects were small, and whether they represent a clinically important change is debatable."
+  },
+  {
+    "source": "One study reported quality of life, and the effect is uncertain.",
+    "human_reference": "One study reported quality of life, and the effect is uncertain.",
+    "baseline_output": "One study found that the quality of life was somewhat good, but it's not certain if this is true.",
+    "fine_tuned_output": "One study found quality of life but the results aren't certain."
+  },
+  {
+    "source": "Three studies reported on adverse events, which were very few and were not severe.",
+    "human_reference": "Three studies reported on unexpected medical problems, which were very few and were not severe.",
+    "baseline_output": "Three reports mentioned side effects, but they weren't too bad.",
+    "fine_tuned_output": "Three studies reported on side effects, which were very rare and mild."
+  },
+  {
+    "source": "When patients present with acute or chronic hand and/or finger pain after an injury, try placing a pencil first over and then under the proximal phalanx of the finger that is generating the pain.",
+    "human_reference": "When a patient has sudden or ongoing hand and/or finger pain after an injury, a hand therapist may place a pencil over and under the first bone of the finger (that starts at the base from the hand) that is causing the pain.",
+    "baseline_output": "When someone has pain in their fingers after getting hurt, try putting a pencil on top and underneath the part of their finger that hurts.",
+    "fine_tuned_output": "Try putting a pencil on and off the proximal phalanx (the part of the finger where the bone meets the skin) to see if it helps relieve pain."
+  },
+  {
+    "source": "Ask the patient to flex and extend the fingers several times.",
+    "human_reference": "The doctor will then ask the patient to flex and extend the fingers several times.",
+    "baseline_output": "Ask the patient to stretch and bend their fingers several times.",
+    "fine_tuned_output": "Ask the patient to stretch and bend their fingers several times."
+  },
+  {
+    "source": "Putting the affected metacarpal phalangeal (MP) joint more relatively flexed or extended than the other MP joints will often take away the pain with active movement with the pencil in place.",
+    "human_reference": "Putting the first knuckle (the joint where the finger connects with the hand) in a more flexed and extended position than the other knuckles will often take away the pain with active movement when the pencil is in place.",
+    "baseline_output": "Putting the affected metacarpal phalangeal (MP) joint more flexed or extended than the other MP joints can sometimes relieve pain when you use a pencil to hold it down.",
+    "fine_tuned_output": "Putting the affected metacarpal phalangeal (MP) joint more relative to the other MP joints may relieve pain when using a pencil."
+  },
+  {
+    "source": "When this happens, our hand therapist builds a relative motion splint that simulates the effect of the pencil.",
+    "human_reference": "The hand therapist will then build a relative motion splint (a piece of sturdy material to support injured bones and allow some movement) that will have the same effect of the pencil.",
+    "baseline_output": "When this occurs, our hand therapist creates a special brace that mimics how pencils move when you hold them up to your eye.",
+    "fine_tuned_output": "When this happens, our hand therapist builds a relative motion splint that mimics the effect of the pencil."
+  },
+  {
+    "source": "These are very functional splints that patients wear 24 hours a day, 7 days a week.",
+    "human_reference": "These types of splints support initial movement and can be worn 24 hours a day, 7 days a week.",
+    "baseline_output": "These splints help patients stay comfortable for long periods without needing to take off their clothes.",
+    "fine_tuned_output": "These are very strong bandages that patients use every day to keep their joints from moving too much."
+  },
+  {
+    "source": "Most people can work with these splints on.",
+    "human_reference": "Most people can work with these splints on.",
+    "baseline_output": "Most people can use these splints for their daily activities.",
+    "fine_tuned_output": "Most people can use these splints to help them move around."
+  },
+  {
+    "source": "Background: Rheumatoid arthritis (RA) is characterized by pain, functional disability, poor quality of life (QoL), high socioeconomic impact, and annual costs of over $56 billion in the United States.",
+    "human_reference": "Rheumatoid arthritis is a disease where the immune system attacks healthy cells in the body by mistake. It can cause pain, decrease movement, lead to poor quality of life, impact the social and economic parts of communities, and cost over $56 billion in the United States every year.",
+    "baseline_output": "Background: Rheumatoid arthritis (RA) is an autoimmune disease that causes pain, difficulty moving around, and feeling unwell. It can affect people's ability to work or have children. RA has a big cost because it makes many people sick and needs special care.",
+    "fine_tuned_output": "Rheumatoid arthritis (RA) is an autoimmune disease that causes inflammation and pain in joints. RA can cause joint damage and loss of function. It also affects people's ability to work or live independently. The cost of treating RA is estimated at over $56 billion per year in the US."
+  },
+  {
+    "source": "Acupuncture (AC) is widely in use; however, studies show severe methodological shortcomings, did not consider the functional diagnosis for the allocation of acupoints and their results showed no differences between verum and control groups.",
+    "human_reference": "Acupuncture involves pricking the skin or tissues with thin needles at key points in the body to reduce pain and is widely used. However, studies show problems in the methods used to measure acupuncture.",
+    "baseline_output": "Acupuncture (AC), which involves inserting needles into specific points on the body to treat illness or pain, has been used widely by many people. However, some researchers have found that AC can be very effective when it's done correctly. But there are still some problems with how they're doing things. For example, they didn't always take into account what doctors call \"functional diagnosis\" before deciding where to put the needles. And sometimes, even if doctors know exactly where to put them, the results",
+    "fine_tuned_output": "Acupuncture (acupuncture) is used widely, but studies show serious problems with how it's done. The study didn't look at what people need to know about the treatment before getting acupuncture. The study also found no difference in the results between real treatments and controls."
+  },
+  {
+    "source": "Objective: The authors aimed to objectively assess the safety and efficacy of AC treatments for RA.",
+    "human_reference": "The aim of this current study is to evaluate the safety and the performance of acupuncture treatments on rheumatoid arthritis.",
+    "baseline_output": "The researchers wanted to make sure that the treatment methods they used were fair and effective for people with rheumatoid arthritis (RA).",
+    "fine_tuned_output": "The authors wanted to know if the treatment works well and safely for people with rheumatoid arthritis (RA)."
+  },
+  {
+    "source": "Methods: 105 RA patients with a functional diagnosis of a \"Pivot syndrome\" or \"Turning Point syndrome\" were randomly assigned to (1) verum-AC (verum acupoints), (2) control-AC (sham acupoints-points outside of the conduits/meridians and of the extra-conduits), or (3) waiting list (each group n = 35).",
+    "human_reference": "In this study, 105 patients with rheumatoid arthritis and a specific diagnosis were randomly assigned to either the acupuncture group, the sham acupuncture group (where the patient is pricked with thin needles but at different, less key points of the body), or a waiting list group. Each group had 35 patients.",
+    "baseline_output": "Methods: For 105 patients diagnosed with a \"Pivot syndrome\" or \"Turning Point syndrome,\" they were randomly divided into three groups: Group A received verum-AC (acupoint points within the conduits/meridians); Group B was treated with sham acupoints; and Group C served as a control group without any treatment. Each group consisted of 35 participants.",
+    "fine_tuned_output": "The study involved 105 RA patients who had a functional diagnosis of a \"Pivot syndrome\" or \"Turning Point syndrome\". The patients were randomly assigned to three groups: verum-AC (verum acupoints), control-AC (sham acupoints points outside of the conduits/meridians and of the extra-conduits), or waiting list (each group n = 35)."
+  },
+  {
+    "source": "AC groups experienced the exact same number, depth, and stimulation of needles.",
+    "human_reference": "The acupuncture groups (both normal and sham) experienced the exact same number, depth, and stimulation of needles.",
+    "baseline_output": "AC groups received the same amount of needles, at the same depth, and under the same conditions.",
+    "fine_tuned_output": "All acupuncture groups received the same amount of treatment, depth, and stimulation."
+  },
+  {
+    "source": "Assessments took place before and 5 min after AC with follow-ups over 4 weeks.",
+    "human_reference": "A physical and visual exam of patients took place before and 5 minutes after acupuncture treatment with follow-up visits over 4 weeks.",
+    "baseline_output": "Before and after assessments were conducted for 5 minutes each, followed by monthly check-ins for 4 weeks.",
+    "fine_tuned_output": "Before and after acupuncture, patients were assessed for pain and other symptoms."
+  },
+  {
+    "source": "Results: (1) Verum-AC significantly improved self-reported pain (Z = -5.099, p < 0.001) and pressure algometry (Z = -5.086, p < 0.001); hand grip strength (Z = -5.086, p < 0.001) and arm strength (Z = -5.086, p < 0.001); health status improved significantly (p < 0.001, Z = -4.895); QoL improved significantly in 7/8 survey domains; and number of swollen joints (Z = -2.862, p = 0.004) and tender joints (Z = -3.986, p < 0.001) significantly decreased.",
+    "human_reference": "Patients in the acupuncture group showed signficantly improved pain and pain sensitivity, hand grip and arm strength, as well as improved health status. Quality of life significantly improved in 7 out of 8 parts of a survey. The number of swollen joints and tender joints signficantly decreased.",
+    "baseline_output": "Results:",
+    "fine_tuned_output": "Results: (1) Verum-AC significantly improved self-reported pain (pain score increased by 5 points), pressure measurement (pressure scores increased by 5 points), hand grip strength (hand grip strength increased by 5 points), arm strength (arm strength increased by 5 points), health status improved (health status improved by 4 points), QoL improved (QoL improved by 7 points), and number of swollen joints (number of swollen joints decreased by 2 points)"
+  },
+  {
+    "source": "(2) Control-AC showed no significant changes, except in self-reported pain improvement.",
+    "human_reference": "In the sham acupuncture group (the group that received needle pricks but outside the key points of the body) did not have any significant changes in their condition except in pain improvement.",
+    "baseline_output": "(2) The control group did not show any noticeable improvements in their reported levels of pain.",
+    "fine_tuned_output": "Control-AC did not show any change in patients' pain levels."
+  },
+  {
+    "source": "(3) Waiting list group showed an overall worsening.",
+    "human_reference": "The waiting list group showed an overall worsening.",
+    "baseline_output": "Waiting list group saw their condition get worse.",
+    "fine_tuned_output": "The waiting list group had worse outcomes than the treatment group."
+  },
+  {
+    "source": "Conclusion: This is the first double-blind controlled study on AC in RA of the hand that objectively and specifically assesses positive effects supporting its integration in rheumatology.",
+    "human_reference": "This is the first double-blind controlled study (where neither the patients nor the researcher knows which treatment participants are getting) on acupuncture for rheumatoid arthritis of the hand. The study shows positive effects supporting acupuncture's inclusion in other treatments for rheumatology (diseases in the joints, muscles, tendons, ligaments).",
+    "baseline_output": "Conclusion: This is the first study to show how well AC (a type of medicine) works for people with rheumatoid arthritis (RA) using two special tests called \"double-blind\" studies. These tests help doctors know if AC really helps people feel better.",
+    "fine_tuned_output": "This is the first study to look at how well AC works in RA of the hand. It looks for specific ways it helps treat RA."
+  },
+  {
+    "source": "Acupoint allocation according to Chinese Medicine functional diagnoses is extremely relevant to assess AC effectiveness in a patient group primarily defined by a \"western\" medicine diagnosis.",
+    "human_reference": "The site of the acupuncture needle is very important to determine acupuncture effectiveness.",
+    "baseline_output": "Acupuncture treatment based on Chinese Medicine principles can be very helpful for assessing the effectiveness of acupuncture treatments in patients who have been diagnosed using Western medicine instead.",
+    "fine_tuned_output": "Acupuncture treatment based on Chinese medicine diagnostic methods is very important for assessing acupuncture's effectiveness in a patient group mainly diagnosed with western medicine."
+  },
+  {
+    "source": "Based on clear allocation criteria for acupoints, the authors minimized the possible bias of unspecific and suggestive effects on the control group, showed the specific effects of the points chosen, improved efficacy, and identified an evidence base for AC.",
+    "human_reference": "Because the authors in this study clearly defined the placement of the acupuncture needles on the body, they reduced possible bias, showed how the placement of the needles affects the body, improved performance of acupuncture, and identified evidence to support use of acupuncture.",
+    "baseline_output": "Based on clear guidelines for acupuncture sites, the researchers reduced the chance of misleading results from unspecific or suggestive treatments among the control group, found the effectiveness of selected points, enhanced outcomes, and established a strong foundation for acupuncture research.",
+    "fine_tuned_output": "The authors used clear guidelines to avoid potential side effects from acupuncture treatments. They also found out which acupoint was effective and how it worked."
+  },
+  {
+    "source": "Pain and a loss of feeling in your thumb, index finger, middle finger, and part of your ring finger may be a sign of carpal tunnel syndrome.",
+    "human_reference": "Pain and a loss of feeling in the thumb, index finger, middle finger, and part of the ring finger may be a sign of carpal tunnel syndrome (pinched nerves in the wrist).",
+    "baseline_output": "Pain and weakness in your thumb, index finger, middle finger, and part of your ring finger might indicate carpal tunnel syndrome.",
+    "fine_tuned_output": "Pain and numbness in your thumb, index finger, middle finger, and part of your ring finger may be a sign of carpal tunnel syndrome."
+  },
+  {
+    "source": "This syndrome and the pain, numbness, tingling, and weakness in your hand that result from it are caused by pressure on the median nerve as it travels through the carpal tunnel.",
+    "human_reference": "This syndrome and the pain, numbness, tingling, and weakness in the hand is caused by pressure on the main nerve at the front of the forearm as it travels through the carpal tunnel, a narrow passageway at the base of the hand that is made of ligaments and bone.",
+    "baseline_output": "This condition causes numbness, tingling, and weakness in your hand when the median nerve is pressed against the carpal tunnel.",
+    "fine_tuned_output": "This syndrome and the pain, numbness, tingling, and weakness in your hand that result from it is caused by pressure on the median nerve as it travels through the carpal tunnel."
+  },
+  {
+    "source": "Guidelines published in the May 2019 issue of JOSPT make recommendations, based on best practices from the published literature, for evaluating, diagnosing, and treating carpal tunnel syndrome.",
+    "human_reference": "Guidelines from the May 2019 issue of Journal of Orthopaedic & Sports Physical Therapy, a scientific journal, make recommendations for evaluating, diagnosing, and treating carpal tunnel syndrome.",
+    "baseline_output": "The guidelines published in the May 2019 edition of JOSPT provide specific advice for diagnosing, treating, and assessing carpal tunnel syndrome using established research findings.",
+    "fine_tuned_output": "The guidelines published in the May 2019 issue of JOSPT provide recommendations for evaluating, diagnosing, and treating carpal tunnel syndrome."
+  },
+  {
+    "source": "For you as a patient, these guidelines outline the best rehabilitation treatment options based on the scientific research.",
+    "human_reference": "For patients, these guidelines outline the best rehabilitation treatment options (care that can help people regain, keep, or improve abilities needed for daily life) based on the scientific research.",
+    "baseline_output": "For patients like you, these rules tell us which ways to get better after we hurt or don't feel well.",
+    "fine_tuned_output": "These guidelines provide the best ways to treat your recovery after surgery or injury."
+  },
+  {
+    "source": "Ultimately, the best care is a combination of the leading science, the clinical expertise of your health care provider, and your input as the patient.",
+    "human_reference": "Ultimately, the best care is a combination of three things: 1) the leading science, 2) the knowledge, experience, and skills of a patient's health care provider, and 3) the patient's own input.",
+    "baseline_output": "Ultimately, the best care involves combining expert knowledge from the field of medicine, the skills of healthcare professionals who know how to treat you personally, and your own thoughts and feelings about what's best for you.",
+    "fine_tuned_output": "The best care for you comes from combining the latest research, the expert knowledge of your doctor, and your own thoughts on what's best for you."
+  },
+  {
+    "source": "These guidelines help inform the first step in that process.",
+    "human_reference": "These guidelines help inform the first step in that process.",
+    "baseline_output": "These guidelines guide you to start something important first.",
+    "fine_tuned_output": "These guidelines help guide the first step of treatment."
+  },
+  {
+    "source": "Practical Advice: Physical therapists are well trained to assess and evaluate people with carpal tunnel syndrome.",
+    "human_reference": "Physical therapists are people who help injured or ill people improve movement and manage pain. They are well trained to help people with carpal tunnel syndrome.",
+    "baseline_output": "Physical therapists are skilled at diagnosing and treating people suffering from carpal tunnel syndrome.",
+    "fine_tuned_output": "Physical therapists have training to diagnose and treat people with carpal tunnel syndrome."
+  },
+  {
+    "source": "Although some patients (anywhere from 28% to 62%) recover without treatment, others (from 32% to 58%) get worse.",
+    "human_reference": "Although some patients (anywhere from 28% to 62%) recover without treatment, others (from 32% to 58%) get worse.",
+    "baseline_output": "Although many patients (around 28-62%), who may recover without treatment, also experience significant improvement when treated.",
+    "fine_tuned_output": "Some people can recover without treatment, but others get worse after treatment."
+  },
+  {
+    "source": "A key to nonsurgical treatment shown to help those with carpal tunnel syndrome is the use of a night brace; a night brace should hold your wrist in a neutral position and only be worn for short-term symptom relief.",
+    "human_reference": "A key to nonsurgical treatment shown to help those with carpal tunnel syndrome is the use of a night brace; a night brace should hold the wrist in a neutral position (where the joints are not being bent) and only be worn for short-term symptom relief.",
+    "baseline_output": "A night brace can help people with carpal tunnel syndrome by keeping their wrists straight and preventing pain during nighttime hours. It's important to wear it only for short periods to avoid discomfort.",
+    "fine_tuned_output": "A night brace can help people with carpal tunnel syndrome by keeping their wrists in a straight line. The braces should only be used for short-term pain relief."
+  },
+  {
+    "source": "If you have mild to moderate carpal tunnel syndrome, stretching exercises and the night brace can help, as can manual therapy of your cervical spine and upper extremity performed by a therapist.",
+    "human_reference": "For patients with mild to moderate carpal tunnel syndrome, stretching exercises and the night brace can help. Manual therapy (hands-on therapy without using a machine or device) of the neck and arms performed by a therapist can also help.",
+    "baseline_output": "If you have mild to moderate carpal tunnel syndrome, try stretching exercises, using the night brace, and having physical therapy from a doctor or therapist.",
+    "fine_tuned_output": "If you have mild or moderate carpal tunnel syndrome, stretching exercises and the night brace can help. Manual therapy of your neck and upper arm can also be helpful."
+  },
+  {
+    "source": "Education on the proper setup of your computer, especially the mouse, and how hard you strike the keyboard may also help control your symptoms of pain and loss of feeling.",
+    "human_reference": "Education on the proper setup of computers, especially the mouse, and how hard patients should strike the keyboard may also help control symptoms of pain and loss of feeling.",
+    "baseline_output": "To prevent headaches and numbness, learn how to set up your computer properly, like where to put the mouse and how hard to press the keys.",
+    "fine_tuned_output": "Education about how to properly set up your computer, including the mouse, and how hard you press the keys can also help control your symptoms of pain and loss of feeling."
+  },
+  {
+    "source": "The literature review for these guidelines found that low-level laser therapy, thermal ultrasound, iontophoresis, and magnets provided no consistent benefit in treating carpal tunnel syndrome.",
+    "human_reference": "Research shows that low-level laser therapy (a laser light used at a low level applied to the skin to reduce pain and help the body heal), thermal ultrasound (a device that provides heat to tissues to increase circulation and reduce pain), iontophoresis (a procedure that uses an electrical current to deliver medicine through the skin), and magnets provided no consistent benefit in treating carpal tunnel syndrome.",
+    "baseline_output": "The research paper suggests that using low-level laser therapy, thermal ultrasound, iontophoresis, and magnets doesn't help treat carpal tunnel syndrome effectively.",
+    "fine_tuned_output": "The research on these guidelines did not find any consistent benefits of using low-level laser therapy, thermal ultrasound, iontophoresis, or magnets to treat carpal tunnel syndrome."
+  },
+  {
+    "source": "If nonsurgical treatment does not help, you may need surgery.",
+    "human_reference": "If nonsurgical treatment does not help, surgery may be needed.",
+    "baseline_output": "If non-surgical treatments don't work, you might need surgery.",
+    "fine_tuned_output": "If non-surgical treatments don't work, you might need surgery to remove the tumor."
+  },
+  {
+    "source": "Your physical therapist can help guide your recovery, decreasing your symptoms.",
+    "human_reference": "A physical therapist can help guide a patient's recovery and decrease symptoms.",
+    "baseline_output": "Your physical therapist will assist you in recovering by reducing your discomfort.",
+    "fine_tuned_output": "Your physical therapist can help you recover from pain by guiding you through exercises to reduce your symptoms."
+  },
+  {
+    "source": "This compilation presents a comprehensive review of the literature on common chronic pain conditions of the hand.",
+    "human_reference": "This report presents a thorough review of the literature on common chronic pain conditions of the hand.",
+    "baseline_output": "This collection offers an overview of the latest research on various types of chronic pain affecting hands.",
+    "fine_tuned_output": "This collection summarizes the research on common chronic pain conditions of the hand."
+  },
+  {
+    "source": "It briefly presents these common conditions with their biological background, diagnosis, and common management options.",
+    "human_reference": "It briefly presents common conditions with their biological background, diagnosis, and common options to treat and manage pain.",
+    "baseline_output": "These conditions are explained with their origins, treatments, and typical methods of care.",
+    "fine_tuned_output": "It briefly describes these common conditions with their biological background, diagnosis, and common treatment methods."
+  },
+  {
+    "source": "It then presents and compares the latest literature available for injection techniques to treat these diagnoses and compares the available evidence.",
+    "human_reference": "The report also shows and compares the latest literature available for injection methods to treat these diagnoses and compares the available evidence.",
+    "baseline_output": "It examines recent studies on how to inject certain medicines to help people get better, looking at what works best among different groups of people.",
+    "fine_tuned_output": "It then compares the latest research on how to inject drugs to treat these conditions and compare what is currently known about how to inject drugs."
+  },
+  {
+    "source": "Results: Hand pain is a common condition with 9.7% prevalence in men and 21.6% in women and can cause significant morbidity and disability.",
+    "human_reference": "Hand pain is a common condition occuring in 9.7% of men and 21.6% of women and can cause significant illness and disability.",
+    "baseline_output": "Results: Hand pain is a frequent issue affecting both men and women, with around 9.7% of cases occurring in men and 21.6% in women. This condition can lead to serious health problems and impair mobility significantly.",
+    "fine_tuned_output": "Results: Hand pain is a common condition with 9.7% prevalence in men and 21.6% in women and can cause significant morbidity and disability."
+  },
+  {
+    "source": "It also carries a significant cost to the individuals and the healthcare system, totaling in $4 billion dollars in 2003.",
+    "human_reference": "It is also costly to the individuals and the healthcare system, totaling in $4 billion dollars in 2003.",
+    "baseline_output": "It costs a lot of money for people and the government to take care of it, which is about $4 billion in 2003.",
+    "fine_tuned_output": "It costs a lot of money to treat people and the health care system."
+  },
+  {
+    "source": "Injection therapy is an alternative when conservative treatment fails.",
+    "human_reference": "Injection therapy (a treatment that involves inserting a needle into the skin to deliver medicine and reduce pain) is an option when other non-surgical treatments fail.",
+    "baseline_output": "Injection therapy is used as an alternative to traditional treatments when they don't work.",
+    "fine_tuned_output": "Injection therapy is used as an alternative to other treatments when conservative treatment does not work."
+  },
+  {
+    "source": "Osteoarthritis is the most common chronic hand pain syndrome and affects about 16% of the population.",
+    "human_reference": "Osteoarthritis (the wearing down of flexible tissue at the end of bones) is the most common chronic hand pain condition and affects about 16% of the population.",
+    "baseline_output": "Osteoarthritis is one of the most common chronic hand pains, affecting around 16% of people.",
+    "fine_tuned_output": "Osteoarthritis is the most common chronic hand pain syndrome and affects about 16% of the population."
+  },
+  {
+    "source": "Its mechanism is largely mechanic, and as such, there is controversy if steroid injections are of benefit.",
+    "human_reference": "There is disagreement on whether steroid injections are helpful to osteoarthritis.",
+    "baseline_output": "Its process involves mechanical methods, which can lead to debate about whether steroid injections provide benefits.",
+    "fine_tuned_output": "Its mechanism is mostly mechanical, and thus, there is debate about whether steroid injections help or harm."
+  },
+  {
+    "source": "Hyaluronic acid (HA) appears to provide substantial relief of pain and may increase functionality.",
+    "human_reference": "Injections of hyaluronic acid (a natural lubricant that can relieve pain) appear to provide significant relief of pain and may increase movement.",
+    "baseline_output": "Hyaluronic acid (HA), which is known for its ability to reduce pain and improve function, seems to be effective.",
+    "fine_tuned_output": "Hyaluronic acid (HA), which is found in the joint fluid, can relieve pain and improve function."
+  },
+  {
+    "source": "More studies of HA are required to make a definite judgment on its efficacy.",
+    "human_reference": "More studies of hyaluronic acid are required before deciding how well it works.",
+    "baseline_output": "More research is needed to determine if HA works effectively.",
+    "fine_tuned_output": "More research is needed to determine whether HA works."
+  },
+  {
+    "source": "Similarly, steroid ganglion cyst injection may confer little benefit.",
+    "human_reference": "Similarly, steroid injection to reduce a ganglion cyst (a swelling or bump on the wrist joint) may have little benefit.",
+    "baseline_output": "Steroid ganglion cyst injections can have limited effects.",
+    "fine_tuned_output": "Steroid ganglion cyst injections may have little effect."
+  },
+  {
+    "source": "Carpal tunnel syndrome is a compressive neuropathy, and only temporarily relieved with injection therapy.",
+    "human_reference": "Injection therapy provides only short-term relief for carpal tunnel syndrome (pinched nerves in the wrist).",
+    "baseline_output": "Carpal tunnel syndrome is a nerve compression condition that can be treated with injections to relieve symptoms temporarily.",
+    "fine_tuned_output": "Carpal tunnel syndrome is a compression of nerve tissue in the wrist. It can be treated by injections to relieve pain."
+  },
+  {
+    "source": "US-guidance provides significant improvement and, while severe cases may still require surgery, can provide a valuable bridge therapy to surgery when conservative treatment fails.",
+    "human_reference": "While severe cases of hand pain may still require surgery, injection therapy may be an additional treatment step before surgery.",
+    "baseline_output": "US guidelines offer substantial benefits, though severe conditions might still necessitate surgery, but they serve as an interim measure until more effective treatments become available.",
+    "fine_tuned_output": "US guidelines improve outcomes for patients who have serious conditions or injuries. While some severe cases may need surgery, these improvements can help treat other problems before surgery."
+  },
+  {
+    "source": "Similar bridging treatments and increased efficacy under US-guidance are effective for stenosing tenosynovitis (\"trigger finger\"), though, interestingly, inflammatory background is associated with decreased effect in this case.",
+    "human_reference": "Similar treatments under US-guidance are effective for a condition called trigger finger where the finger gets locked in a bent position.",
+    "baseline_output": "Similar treatment methods and improved effectiveness under US guidelines are beneficial for stenosing tenosynovitis (\"trigger finger\"). However, it's noteworthy that patients with an inflammatory background may experience less benefit compared to those without such a background.",
+    "fine_tuned_output": "Similar treatment methods and higher effectiveness under US guidelines are effective for stenosing tenosynovitis (trigger finger), but interestingly, inflammation may decrease the effect of these treatments."
+  },
+  {
+    "source": "When the etiology of the pain is inflammatory, such as in RA, corticosteroid (CS) injections provide significant pain relief and increased functionality.",
+    "human_reference": "When the cause of the pain is inflammation (the body's response to injury or infection often causing swelling, pain, or redness), corticosteroid or steroid injections provide significant pain relief and increased movement.",
+    "baseline_output": "When inflammation causes pain, like in rheumatoid arthritis, injecting corticosteroids can help make you feel better and be more active again.",
+    "fine_tuned_output": "When the cause of pain is inflammation, such as rheumatoid arthritis, corticosteroids (anti-inflammatory drugs) can relieve pain and increase function."
+  },
+  {
+    "source": "They do not, however, change the course of disease (unlike DMARDs).",
+    "human_reference": "Corticosteroid injections do not, however, change the course of disease.",
+    "baseline_output": "They don't alter the path of illness (in contrast to DMARDs).",
+    "fine_tuned_output": "They don't affect how the disease progresses (like DMARDs)."
+  },
+  {
+    "source": "Another such example is De-Quervain tenosynovitis that sees good benefit from CS injections, and an increased efficacy with US-guidance, and similarly are CS injections for gout.",
+    "human_reference": "Other conditions such as gout (a type of arthritis that causes sudden pain or swelling, often in the big toe) and De-Quervain tenosynovitis (pain in the tendons in the thumb) may get some benefit from corticosteroid injections.",
+    "baseline_output": "Another condition where CS (Corticosteroid Suppositories) can be effective is De-Quervain tenosynovitis. This treatment shows better results when combined with US (United States) guidelines, and similar to other treatments like CS injections for gout.",
+    "fine_tuned_output": "Another example of this condition is De-Quervain tenosynovitis, which can be treated by injection."
+  },
+  {
+    "source": "For Raynaud's phenomenon, Botox injections have encouraging results, but more studies are needed to determine safety and efficacy, as well as the possible difference in effect between primary and secondary Raynaud's.",
+    "human_reference": "Botox injections show encouraging results for Raynaud's phenomenon (spasms caused by slow blood flow in the fingers and other extremities), but more studies are needed to determine safety and how well the injections work.",
+    "baseline_output": "For Raynaud's condition, Botox injections show promising results, but further research is necessary to assess their safety and effectiveness, as well as any differences in effects between primary and secondary cases.",
+    "fine_tuned_output": "Botox injections can help treat Raynaud's phenomenon, but more research is needed to see if it works for everyone or if it has side effects."
+  },
+  {
+    "source": "Conclusions: Chronic hand pain is a prevalent and serious condition and can cause significant morbidity and disability and interferes with independence and activities of daily living.",
+    "human_reference": "Chronic hand pain is a common and serious condition, can cause significant illness and disability, and interferes with independence and the activities of daily living.",
+    "baseline_output": "Conclusions: Hand pain is common and serious, affecting many people's health and ability to live independently.",
+    "fine_tuned_output": "Chronic hand pain is a common and serious condition that causes significant morbidity and disability and interferes with independence and daily life."
+  },
+  {
+    "source": "Conservative treatment remains the first line of treatment; however, when first-line treatments fail, steroid injections can usually provide benefit.",
+    "human_reference": "Careful, non-invasive treatment remains the first line of treatment; however, when first-line treatments fail, steroid injections can usually provide benefit.",
+    "baseline_output": "Conservative treatment is still the main approach, but if first-line treatments don't work, steroid shots might offer some relief.",
+    "fine_tuned_output": "Conservative treatment is still the first line of treatment for most cases of osteoarthritis. However, if conservative treatment fails, steroid injections can sometimes help."
+  },
+  {
+    "source": "In some cases, Hyaluronic acid or Botox may also be beneficial.",
+    "human_reference": "In some cases, Hyaluronic acid or Botox may also be helpful.",
+    "baseline_output": "In some instances, hyaluronic acid or botox might prove helpful.",
+    "fine_tuned_output": "In some cases, hyaluronic acid or botox may also be helpful."
+  },
+  {
+    "source": "US-guidance is increasing in hand injection and almost ubiquitously provides safer, more effective injections.",
+    "human_reference": "US-guidance is expanding in hand injections and provides safer, more effective injections.",
+    "baseline_output": "US guidelines are making it easier to give injections by hand, which makes them much safer and better at doing what they're supposed to do.",
+    "fine_tuned_output": "US guidelines are increasing in hand injections and almost universally provide safer, more effective injections."
+  },
+  {
+    "source": "Hand surgery remains the alternative for refractory pain.",
+    "human_reference": "Hand surgery remains the alternative for pain that is not responding to multiple treatments.",
+    "baseline_output": "Hand surgery is still used as an option when pain is unbearable.",
+    "fine_tuned_output": "Hand surgery is still an option if pain is not controlled by other treatments."
+  },
+  {
+    "source": "Importance: Hand osteoarthritis is a musculoskeletal problem that is associated with hand pain, stiffness, functional limitation, decreased grip strength, and reduced quality of life.",
+    "human_reference": "Hand osteoarthritis is a problem that is associated with hand pain, stiffness, inability to perform normal functional movements, decreased grip strength, and reduced quality of life.",
+    "baseline_output": "Hand osteoarthritis is a condition affecting your hands that causes pain, stiffness, difficulty moving them, weakness in gripping things, and lessened ability to do daily activities.",
+    "fine_tuned_output": "Hand osteoarthritis is a joint disease that causes pain, stiffness, limited movement, loss of grip strength, and difficulty with daily activities."
+  },
+  {
+    "source": "Objective: To evaluate the effectiveness of nighttime orthoses on the second or third finger of the dominant hand in controlling pain in women with symptomatic osteoarthritis (OA) in the interphalangeal joint.",
+    "human_reference": "A nighttime orthosis is a device or brace worn at night that supports weak or damaged muscles and limits motion of the wrist. The objective of this study is to evaluate how helpful using nighttime orthoses on the second or third finger of the dominant hand is in controlling pain in women who have osteoarthritis in the hinge joint of the fingers.",
+    "baseline_output": "Objective: To find out if wearing special nightgowns can help make it easier for women to feel better when they have pain in their hands from arthritis in their fingers.",
+    "fine_tuned_output": "Objective: To see if night-time orthosis can help control pain in women with OA in the interphalangeal joint."
+  },
+  {
+    "source": "Design: Randomized controlled trial.",
+    "human_reference": "This study used a randomized controlled trial, a type of study that randomly assigns participants to one of two groups: the intervention group that is receiving the treatment or the comparison group not receiving treatment.",
+    "baseline_output": "Randomized controlled trial",
+    "fine_tuned_output": "Randomized controlled trial"
+  },
+  {
+    "source": "Setting: Outpatient clinic.",
+    "human_reference": "The study took place in an outpatient clinic away from a hospital.",
+    "baseline_output": "Setting: Outpatient clinic.",
+    "fine_tuned_output": "Setting: Outpatient clinic."
+  },
+  {
+    "source": "Participants: Fifty-two women with symptomatic OA and presence of Heberden's and Bouchard's nodes, allocated randomly to the intervention group or the control group.",
+    "human_reference": "Fifty-two women with osteoarthritis and who also had bony bumps (also called nodes) on the finger joints closest to the fingernail and in the middle of the finger were randomly assigned to the intervention group or the comparison group.",
+    "baseline_output": "Participants: Twenty-five women with symptoms of osteoarthritis (OA) and signs of Heberden's and Bouchard's nodes were assigned randomly to either the intervention group or the control group.",
+    "fine_tuned_output": "Participants: 52 women with symptoms of osteoarthritis (OA) and presence of Heberden's and Bouchard's nodes, assigned randomly to the treatment group or control group."
+  },
+  {
+    "source": "Intervention: The intervention group used a nighttime orthosis on the second or third finger of the dominant hand.",
+    "human_reference": "The intervention group used a nighttime orthosis on the second or third finger of the dominant hand.",
+    "baseline_output": "The night-time orthosis was worn by the intervention group on their second or third fingers to help them use their dominant hand more comfortably at night.",
+    "fine_tuned_output": "The intervention group wore night-time orthoses (nighttime braces) on their second or third fingers of the dominant hand."
+  }
+]
