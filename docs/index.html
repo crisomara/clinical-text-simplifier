@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simpler Isn't Always Safer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1B1D1B; --paper: #F1F3EF; --paper-raised: #E7EAE3; --paper-raised-2: #DDE1D6;
+    --accent: #B5652A; --accent-2: #3E7C74; --rule: #CDD1C6; --muted: #5B5F58; --muted-2: #767B72;
+    --shadow: rgba(27, 29, 27, 0.08); --bad: #9C4A34;
+    --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+    --font-body: "Inter", -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #F1F3EF; --paper: #15171A; --paper-raised: #1E2120; --paper-raised-2: #262A27;
+      --accent: #E29159; --accent-2: #6FB3A8; --rule: #2C2F2A; --muted: #A3A89D; --muted-2: #878C82;
+      --shadow: rgba(0, 0, 0, 0.35); --bad: #D97F66;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #F1F3EF; --paper: #15171A; --paper-raised: #1E2120; --paper-raised-2: #262A27;
+    --accent: #E29159; --accent-2: #6FB3A8; --rule: #2C2F2A; --muted: #A3A89D; --muted-2: #878C82;
+    --shadow: rgba(0, 0, 0, 0.35); --bad: #D97F66;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--font-body); margin: 0; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  ::selection { background: var(--accent); color: var(--paper); }
+
+  .shell { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 0; max-width: 1180px; margin: 0 auto; }
+  nav.notes { position: sticky; top: 0; align-self: start; padding: 3.5rem 1.5rem 2rem 2rem; height: 100vh; overflow-y: auto; }
+  nav.notes .label { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted-2); margin-bottom: 1.1rem; }
+  nav.notes a { display: block; font-size: 0.82rem; color: var(--muted); text-decoration: none; padding: 0.42rem 0; border-left: 2px solid transparent; padding-left: 0.75rem; margin-left: -0.77rem; transition: color 0.15s ease, border-color 0.15s ease; }
+  nav.notes a:hover, nav.notes a:focus-visible { color: var(--accent); border-left-color: var(--accent); }
+  nav.notes a .num { font-family: var(--font-mono); color: var(--muted-2); margin-right: 0.5em; }
+
+  main { min-width: 0; padding: 0 2rem 6rem; }
+
+  .hero { padding: 5.5rem 0 4rem; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-2); margin: 0 0 1.1rem; }
+  h1.headline { font-family: var(--font-display); font-optical-sizing: auto; font-weight: 600; font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.06; letter-spacing: -0.01em; margin: 0 0 1.3rem; text-wrap: balance; max-width: 15ch; }
+  .dek { font-size: 1.18rem; color: var(--muted); max-width: 56ch; margin: 0 0 2.4rem; }
+  .stat-row { display: flex; gap: 2.6rem; flex-wrap: wrap; margin-top: 2.6rem; }
+  .stat { min-width: 140px; }
+  .stat .n { font-family: var(--font-mono); font-weight: 600; font-size: 2rem; color: var(--accent); font-variant-numeric: tabular-nums; display: block; }
+  .stat .d { font-size: 0.84rem; color: var(--muted); margin-top: 0.2rem; }
+
+  section.track { padding: 4.6rem 0; border-bottom: 1px solid var(--rule); scroll-margin-top: 2rem; }
+  section.track:last-of-type { border-bottom: none; }
+  .track-head { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1.6rem; }
+  .track-head .num { font-family: var(--font-mono); font-size: 0.95rem; color: var(--muted-2); letter-spacing: 0.04em; }
+  h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.5rem, 2.6vw, 1.9rem); margin: 0; text-wrap: balance; }
+
+  .prose { max-width: 66ch; }
+  .prose p { margin: 0 0 1.15rem; }
+  .prose p:last-child { margin-bottom: 0; }
+  .prose strong { color: var(--accent); font-weight: 600; }
+
+  .callout { background: var(--paper-raised); border-left: 3px solid var(--accent); padding: 1.3rem 1.6rem; margin: 1.6rem 0; border-radius: 0 4px 4px 0; font-family: var(--font-display); font-style: italic; font-size: 1.12rem; line-height: 1.5; max-width: 58ch; }
+  .callout strong { color: var(--ink); font-style: normal; }
+  .callout.warn { border-left-color: var(--bad); }
+
+  .approach-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.6rem 0; }
+  .approach-card { background: var(--paper-raised); padding: 1.2rem 1.4rem; border-radius: 4px; }
+  .approach-card .tag { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-2); margin-bottom: 0.5rem; }
+  .approach-card h3 { font-family: var(--font-display); font-size: 1.05rem; margin: 0 0 0.4rem; }
+  .approach-card p { font-size: 0.88rem; color: var(--muted); margin: 0; }
+  @media (max-width: 560px) { .approach-grid { grid-template-columns: 1fr; } }
+
+  /* metric bars */
+  .metric-bars { display: flex; flex-direction: column; gap: 1.5rem; margin: 1.8rem 0; }
+  .metric-bar-group .metric-label { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 0.78rem; margin-bottom: 0.5rem; }
+  .metric-bar-group .metric-label .name { color: var(--ink); font-weight: 600; }
+  .metric-bar-group .metric-label .delta { color: var(--accent-2); }
+  .bar-row { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.35rem; }
+  .bar-row .bar-label { font-family: var(--font-mono); font-size: 0.68rem; color: var(--muted); width: 68px; flex-shrink: 0; text-align: right; text-transform: uppercase; letter-spacing: 0.04em; }
+  .bar-track { flex: 1; height: 10px; background: var(--paper-raised-2); border-radius: 5px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 5px; }
+  .bar-fill.baseline { background: var(--muted-2); }
+  .bar-fill.tuned { background: var(--accent-2); }
+  .bar-row .bar-value { font-family: var(--font-mono); font-size: 0.76rem; font-variant-numeric: tabular-nums; width: 52px; color: var(--ink); }
+
+  /* case-note quote cards */
+  .case-note { border: 1px solid var(--rule); border-radius: 6px; padding: 1.3rem 1.5rem; margin: 1.5rem 0; }
+  .case-note .verdict { font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.15rem 0.55rem; border-radius: 2px; display: inline-block; margin-bottom: 0.9rem; }
+  .case-note.win .verdict { background: var(--paper-raised); color: var(--accent-2); }
+  .case-note.fail .verdict { background: var(--paper-raised); color: var(--bad); }
+  .case-note dl { margin: 0; display: grid; grid-template-columns: 90px 1fr; gap: 0.4rem 0.8rem; font-size: 0.9rem; }
+  .case-note dt { font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted-2); text-transform: uppercase; letter-spacing: 0.04em; padding-top: 0.15rem; }
+  .case-note dd { margin: 0; color: var(--ink); }
+  .case-note dd.tuned { color: var(--accent-2); }
+  .case-note dd.hallucination { color: var(--bad); }
+
+  .links { display: flex; gap: 1.2rem; flex-wrap: wrap; margin-top: 1.2rem; }
+  .links a { font-family: var(--font-mono); font-size: 0.86rem; color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 1px; }
+  .links a:hover { color: var(--accent-2); }
+
+  @media (max-width: 860px) {
+    .shell { grid-template-columns: 1fr; }
+    nav.notes { position: static; height: auto; padding: 2rem 2rem 0; }
+    main { padding: 0 2rem 4rem; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+  <nav class="notes">
+    <div class="label">Case Notes</div>
+    <a href="#question"><span class="num">01</span>The question</a>
+    <a href="#setup"><span class="num">02</span>The setup</a>
+    <a href="#results"><span class="num">03</span>The results</a>
+    <a href="#wins"><span class="num">04</span>Reading the wins</a>
+    <a href="#failure"><span class="num">05</span>An honest failure</a>
+    <a href="#surprise"><span class="num">06</span>What surprised us</a>
+    <a href="#limits"><span class="num">07</span>Limitations</a>
+    <a href="#links"><span class="num">08</span>Repo &amp; case study</a>
+  </nav>
+
+  <main>
+    <div class="hero">
+      <p class="eyebrow">Clinical Text Simplifier &middot; LoRA Fine-Tuning Case Study</p>
+      <h1 class="headline">Simpler Isn't Always Safer</h1>
+      <p class="dek">Can an open, 0.5B-parameter LLM be LoRA-tuned on a CPU to simplify biomedical text better than the same model prompted zero-shot? Scored against PLABA &mdash; NIH/NLM's real, professionally human-simplified dataset &mdash; not asserted.</p>
+      <div class="stat-row">
+        <div class="stat"><span class="n">+5.06</span><span class="d">SARI improvement over baseline</span></div>
+        <div class="stat"><span class="n">+83%</span><span class="d">relative sacreBLEU improvement</span></div>
+        <div class="stat"><span class="n">0.44%</span><span class="d">of model parameters trained (LoRA)</span></div>
+      </div>
+    </div>
+
+    <section class="track" id="question">
+      <div class="track-head"><span class="num">01</span></div>
+      <h2>Clinical writing is dense on purpose &mdash; can a tiny model fix that?</h2>
+      <div class="prose">
+        <p>Large frontier models can simplify biomedical text reasonably well out of the box. That isn't the interesting question for a portfolio project &mdash; the narrower, falsifiable one is: can a <strong>small (~0.5B parameter) open model</strong>, fine-tuned with LoRA on a CPU in a modest amount of wall-clock time, get measurably better at this one task than the same base model prompted zero-shot?</p>
+        <p>Scored against <a href="https://bionlp.nlm.nih.gov/plaba2024/" target="_blank" rel="noreferrer">PLABA</a> &mdash; 75 consumer-health topics, 749 PubMed abstracts, every sentence adapted into plain language by professional NLM annotators. Real human references, not self-graded output.</p>
+      </div>
+    </section>
+
+    <section class="track" id="setup">
+      <div class="track-head"><span class="num">02</span></div>
+      <h2>CPU-only, validated before committing</h2>
+      <div class="prose">
+        <p>This ran on a 4-core laptop CPU, no GPU &mdash; the same class of hardware that caused an out-of-memory crash on a past project. A smoke test came back clean, but at 8.8s/example, three epochs over the full 6,202-example split would have taken ~45 hours.</p>
+      </div>
+      <div class="approach-grid">
+        <div class="approach-card"><div class="tag">Model</div><h3>Qwen2.5-0.5B-Instruct</h3><p>Apache 2.0, 496M params including the LM head.</p></div>
+        <div class="approach-card"><div class="tag">Method</div><h3>LoRA, rank 16</h3><p>2.16M trainable params &mdash; 0.44% of the full model. Base weights never change.</p></div>
+        <div class="approach-card"><div class="tag">Throughput</div><h3>batch_size=1 fastest</h3><p>Larger batches and extra threads were both <em>slower</em> on this CPU &mdash; benchmarked, not assumed.</p></div>
+        <div class="approach-card"><div class="tag">Real run</div><h3>800 examples, 1 epoch</h3><p>~70&ndash;90 minutes &mdash; a documented scope reduction, not a hidden one.</p></div>
+      </div>
+    </section>
+
+    <section class="track" id="results">
+      <div class="track-head"><span class="num">03</span></div>
+      <h2>Every metric moved the same direction</h2>
+      <div class="prose">
+        <p>200 held-out test sentences, identical greedy decoding for both models, scored against the same human references.</p>
+      </div>
+      <div class="metric-bars">
+        <div class="metric-bar-group">
+          <div class="metric-label"><span class="name">SARI</span><span class="delta">+5.06</span></div>
+          <div class="bar-row"><span class="bar-label">Zero-shot</span><div class="bar-track"><div class="bar-fill baseline" style="width: 85.1%;"></div></div><span class="bar-value">29.04</span></div>
+          <div class="bar-row"><span class="bar-label">Fine-tuned</span><div class="bar-track"><div class="bar-fill tuned" style="width: 100%;"></div></div><span class="bar-value">34.11</span></div>
+        </div>
+        <div class="metric-bar-group">
+          <div class="metric-label"><span class="name">sacreBLEU</span><span class="delta">+83%</span></div>
+          <div class="bar-row"><span class="bar-label">Zero-shot</span><div class="bar-track"><div class="bar-fill baseline" style="width: 54.5%;"></div></div><span class="bar-value">9.48</span></div>
+          <div class="bar-row"><span class="bar-label">Fine-tuned</span><div class="bar-track"><div class="bar-fill tuned" style="width: 100%;"></div></div><span class="bar-value">17.40</span></div>
+        </div>
+        <div class="metric-bar-group">
+          <div class="metric-label"><span class="name">ROUGE-L</span><span class="delta">+0.084</span></div>
+          <div class="bar-row"><span class="bar-label">Zero-shot</span><div class="bar-track"><div class="bar-fill baseline" style="width: 77.6%;"></div></div><span class="bar-value">0.295</span></div>
+          <div class="bar-row"><span class="bar-label">Fine-tuned</span><div class="bar-track"><div class="bar-fill tuned" style="width: 100%;"></div></div><span class="bar-value">0.380</span></div>
+        </div>
+      </div>
+      <p class="prose" style="color: var(--muted); font-size: 0.9rem;">Readability moved further too: fine-tuned outputs average Flesch-Kincaid grade 11.08 vs. 12.24 zero-shot, against source sentences averaging grade 14.6.</p>
+    </section>
+
+    <section class="track" id="wins">
+      <div class="track-head"><span class="num">04</span></div>
+      <h2>Reading the wins</h2>
+      <div class="case-note win">
+        <span class="verdict">Clean win</span>
+        <dl>
+          <dt>Source</dt><dd>Currently, only one half of the people who have diabetes mellitus have been diagnosed.</dd>
+          <dt>Reference</dt><dd>Currently, only half of those with diabetes mellitus have been identified.</dd>
+          <dt>Baseline</dt><dd>Currently, less than half of individuals suffering from type 2 diabetes have been identified as having the condition.</dd>
+          <dt>Fine-tuned</dt><dd class="tuned">Only half of those with diabetes have been diagnosed.</dd>
+        </dl>
+      </div>
+      <div class="case-note win">
+        <span class="verdict">Modest, real improvement</span>
+        <dl>
+          <dt>Source</dt><dd>These changes provide an easier and more reliable means of diagnosing persons at risk of complications from hyperglycemia.</dd>
+          <dt>Reference</dt><dd>These changes help improve identification of those at risk from effects of high blood sugar.</dd>
+          <dt>Baseline</dt><dd>These adjustments make it easier to identify people who might have problems with high blood sugar earlier on.</dd>
+          <dt>Fine-tuned</dt><dd class="tuned">These changes make it easier to diagnose people who may have problems with high blood sugar.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="track" id="failure">
+      <div class="track-head"><span class="num">05</span></div>
+      <h2>An honest failure</h2>
+      <div class="prose">
+        <p>The fine-tune helped on every metric &mdash; that isn't the same claim as "safe for real patient-facing text." Reported directly rather than smoothed over:</p>
+      </div>
+      <div class="case-note fail">
+        <span class="verdict">Content dropped</span>
+        <dl>
+          <dt>Source</dt><dd>It is clear that these changes in diagnostic criteria have major importance both for individuals and for resource planning at a national level.</dd>
+          <dt>Reference</dt><dd>It is clear that these changes in identification criteria have major importance both for individuals and for planning at a national level.</dd>
+          <dt>Baseline</dt><dd>These changes in diagnostic criteria are crucial for both individual patients and overall resource management at a national scale.</dd>
+          <dt>Fine-tuned</dt><dd class="hallucination">It's important to change how doctors diagnose patients so they can better treat them.</dd>
+        </dl>
+      </div>
+      <div class="callout warn">A separate output truncates and appears to <strong>invent a numeric value</strong> ("&hellip;lowered from 140 mg/dL to 12") that isn't in the source sentence at all &mdash; exactly the kind of faithfulness failure automatic SARI/BLEU/ROUGE metrics are not designed to catch.</div>
+    </section>
+
+    <section class="track" id="surprise">
+      <div class="track-head"><span class="num">06</span></div>
+      <h2>What surprised us</h2>
+      <div class="prose">
+        <p>Given how little supervision 800 examples/1 epoch represents, a split result across metrics seemed more likely going in &mdash; better BLEU/ROUGE from picking up PLABA's vocabulary, but no real readability gain, or vice versa. Instead every metric moved the same direction, by a consistent margin.</p>
+        <p>The fine-tuned model also simplifies <strong>more aggressively</strong> than the human annotators do by grade level (&minus;3.51 grades vs. source, versus the human references' own &minus;1.40) &mdash; and that isn't a free win. Some of that extra simplification is genuinely tighter phrasing; some of it is the model dropping real content for vaguer language that still scores well on n-gram overlap.</p>
+      </div>
+    </section>
+
+    <section class="track" id="limits">
+      <div class="track-head"><span class="num">07</span></div>
+      <h2>Limitations</h2>
+      <div class="prose">
+        <p>The official TREC-2024 test split sits behind NIST registration that couldn't be completed non-interactively &mdash; this project uses a self-constructed topic-level split instead, so numbers aren't directly comparable to the published leaderboard. A single 0.5B model, one LoRA configuration, no hyperparameter sweep. Automatic metrics only &mdash; no clinician or lay-reader panel reviewed outputs. Evaluation used 200 of 1,242 test sentences, a documented scope reduction for CPU wall-clock time.</p>
+      </div>
+    </section>
+
+    <section class="track" id="links" style="border-bottom: none;">
+      <div class="track-head"><span class="num">08</span></div>
+      <h2>Repo &amp; full case study</h2>
+      <div class="links">
+        <a href="https://github.com/crisomara/clinical-text-simplifier" target="_blank" rel="noreferrer">GitHub repo &rarr;</a>
+        <a href="https://github.com/crisomara/clinical-text-simplifier/blob/master/reports/case_study.md" target="_blank" rel="noreferrer">Full case study &rarr;</a>
+      </div>
+    </section>
+  </main>
+</div>
+</body>
+</html>
