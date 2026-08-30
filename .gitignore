@@ -4,7 +4,10 @@ __pycache__/
 *.pyc
 data/raw/
 data/processed/
-checkpoints/
+# Committed on purpose: checkpoints/lora_adapter/ is the trained artifact the
+# demo app loads at runtime (~20MB, well within reason to keep in git).
+checkpoints/*
+!checkpoints/lora_adapter/
 reports/_gen_cache/
 .ipynb_checkpoints/
 .env

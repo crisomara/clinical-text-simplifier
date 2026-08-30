@@ -13,3 +13,4 @@ sentencepiece
 pandas
 numpy
 tqdm
+streamlit
