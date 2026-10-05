@@ -26,6 +26,7 @@ Output: data/processed/{train,val,test}.jsonl
     the standard, less noisy way to score SARI/BLEU against PLABA, since good
     simplifications are not unique).
 """
+
 import json
 import random
 from pathlib import Path
@@ -60,8 +61,8 @@ def split_topics(raw, seed=SEED):
     n_train = int(round(n * TRAIN_FRAC))
     n_val = int(round(n * VAL_FRAC))
     train_topics = set(topics[:n_train])
-    val_topics = set(topics[n_train:n_train + n_val])
-    test_topics = set(topics[n_train + n_val:])
+    val_topics = set(topics[n_train : n_train + n_val])
+    test_topics = set(topics[n_train + n_val :])
     return train_topics, val_topics, test_topics
 
 
@@ -101,25 +102,29 @@ def build_splits():
         if topic_id in train_topics:
             for sid, entry in refs_by_sid.items():
                 for ref in entry["refs"]:
-                    train_rows.append({
+                    train_rows.append(
+                        {
+                            "topic": topic_id,
+                            "article_id": art_id,
+                            "title": title,
+                            "sentence_id": sid,
+                            "source": entry["source"],
+                            "target": ref,
+                        }
+                    )
+        else:
+            bucket = val_rows if topic_id in val_topics else test_rows
+            for sid, entry in refs_by_sid.items():
+                bucket.append(
+                    {
                         "topic": topic_id,
                         "article_id": art_id,
                         "title": title,
                         "sentence_id": sid,
                         "source": entry["source"],
-                        "target": ref,
-                    })
-        else:
-            bucket = val_rows if topic_id in val_topics else test_rows
-            for sid, entry in refs_by_sid.items():
-                bucket.append({
-                    "topic": topic_id,
-                    "article_id": art_id,
-                    "title": title,
-                    "sentence_id": sid,
-                    "source": entry["source"],
-                    "references": entry["refs"],
-                })
+                        "references": entry["refs"],
+                    }
+                )
 
     # Basic hygiene: drop degenerate rows (empty/very short source or target)
     train_rows = [r for r in train_rows if len(r["source"]) > 3 and len(r["target"]) > 3]

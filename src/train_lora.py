@@ -8,21 +8,22 @@ Usage:
     python src/train_lora.py --smoke_test
     python src/train_lora.py --epochs 3 --output_dir checkpoints/qwen05b_lora
 """
+
 import argparse
 import json
 import time
 from pathlib import Path
 
 import torch
+from peft import LoraConfig, TaskType, get_peft_model
 from torch.utils.data import Dataset
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
+    DataCollatorForSeq2Seq,
     Trainer,
     TrainingArguments,
-    DataCollatorForSeq2Seq,
 )
-from peft import LoraConfig, get_peft_model, TaskType
 
 from prompting import build_chat_messages
 
@@ -55,17 +56,13 @@ class SimplificationDataset(Dataset):
         full_messages = build_chat_messages(source, target)
         prompt_messages = build_chat_messages(source, None)
 
-        full_text = self.tok.apply_chat_template(
-            full_messages, tokenize=False, add_generation_prompt=False
-        )
-        prompt_text = self.tok.apply_chat_template(
-            prompt_messages, tokenize=False, add_generation_prompt=True
-        )
+        full_text = self.tok.apply_chat_template(full_messages, tokenize=False, add_generation_prompt=False)
+        prompt_text = self.tok.apply_chat_template(prompt_messages, tokenize=False, add_generation_prompt=True)
 
-        full_ids = self.tok(full_text, add_special_tokens=False, truncation=True,
-                             max_length=self.max_len)["input_ids"]
-        prompt_ids = self.tok(prompt_text, add_special_tokens=False, truncation=True,
-                               max_length=self.max_len)["input_ids"]
+        full_ids = self.tok(full_text, add_special_tokens=False, truncation=True, max_length=self.max_len)["input_ids"]
+        prompt_ids = self.tok(prompt_text, add_special_tokens=False, truncation=True, max_length=self.max_len)[
+            "input_ids"
+        ]
 
         prompt_len = min(len(prompt_ids), len(full_ids))
         labels = list(full_ids)
@@ -91,8 +88,7 @@ def main():
     ap.add_argument("--lora_r", type=int, default=16)
     ap.add_argument("--lora_alpha", type=int, default=32)
     ap.add_argument("--max_train_samples", type=int, default=None)
-    ap.add_argument("--smoke_test", action="store_true",
-                     help="Tiny run: 64 examples, 1 epoch, to validate the loop.")
+    ap.add_argument("--smoke_test", action="store_true", help="Tiny run: 64 examples, 1 epoch, to validate the loop.")
     args = ap.parse_args()
 
     if args.smoke_test:
@@ -153,8 +149,10 @@ def main():
     start = time.time()
     trainer.train()
     elapsed = time.time() - start
-    print(f"Training finished in {elapsed:.1f}s for {len(rows)} examples, "
-          f"{args.epochs} epoch(s) -> {elapsed / max(len(rows) * args.epochs, 1):.3f} s/example")
+    print(
+        f"Training finished in {elapsed:.1f}s for {len(rows)} examples, "
+        f"{args.epochs} epoch(s) -> {elapsed / max(len(rows) * args.epochs, 1):.3f} s/example"
+    )
 
     Path(args.output_dir).mkdir(parents=True, exist_ok=True)
     model.save_pretrained(args.output_dir)
