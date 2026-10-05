@@ -12,3 +12,7 @@ reports/_gen_cache/
 .ipynb_checkpoints/
 .env
 *.egg-info/
+
+# Test coverage output
+.coverage
+coverage.xml

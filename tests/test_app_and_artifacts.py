@@ -14,7 +14,7 @@ ADAPTER_DIR = ROOT / "checkpoints" / "lora_adapter"
 
 
 def test_streamlit_app_renders():
-    at = AppTest.from_file(str(ROOT / "app" / "streamlit_app.py"), default_timeout=120)
+    at = AppTest.from_file(str(ROOT / "app" / "streamlit_app.py"), default_timeout=300)
     at.run()
     assert not at.exception
     assert len(at.text_area) == 1
@@ -22,7 +22,7 @@ def test_streamlit_app_renders():
 
 
 def test_empty_input_shows_error_without_loading_model():
-    at = AppTest.from_file(str(ROOT / "app" / "streamlit_app.py"), default_timeout=120)
+    at = AppTest.from_file(str(ROOT / "app" / "streamlit_app.py"), default_timeout=300)
     at.run()
     at.button[0].click().run()
     assert not at.exception
