@@ -17,6 +17,7 @@ st.markdown(unsafe_allow_html=True)) for anything with real markup --
 markdown's raw-HTML-block passthrough silently breaks on blank lines,
 which a multi-rule <style> block always has.
 """
+
 import contextlib
 import sys
 from pathlib import Path
@@ -133,9 +134,7 @@ def load_model():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
-    base_model = AutoModelForCausalLM.from_pretrained(
-        MODEL_NAME, torch_dtype=torch.float32, low_cpu_mem_usage=True
-    )
+    base_model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, torch_dtype=torch.float32, low_cpu_mem_usage=True)
     model = PeftModel.from_pretrained(base_model, str(ADAPTER_DIR))
     model.eval()
     return tokenizer, model
@@ -156,7 +155,7 @@ def generate(tokenizer, model, source: str, use_adapter: bool, max_new_tokens: i
             top_p=None,
             pad_token_id=tokenizer.pad_token_id or tokenizer.eos_token_id,
         )
-    gen_ids = out[0][inputs["input_ids"].shape[1]:]
+    gen_ids = out[0][inputs["input_ids"].shape[1] :]
     result = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
     return result.split("\n")[0].strip()
 
@@ -165,7 +164,7 @@ def fk_grade(text: str) -> float:
     return textstat.flesch_kincaid_grade(text) if text.strip() else 0.0
 
 
-st.set_page_config(page_title="Clinical Text Simplifier", page_icon="\U0001FA7A", layout="centered")
+st.set_page_config(page_title="Clinical Text Simplifier", page_icon="\U0001fa7a", layout="centered")
 
 st.html(CSS)
 st.html(HERO)
@@ -192,13 +191,13 @@ if run_live:
         with left:
             st.html(
                 f'<div class="case-note base"><div class="verdict">Zero-shot baseline</div>'
-                f'<p>{baseline_out}</p>'
+                f"<p>{baseline_out}</p>"
                 f'<div class="fk">FK grade {fk_grade(baseline_out):.1f}</div></div>'
             )
         with right:
             st.html(
                 f'<div class="case-note tuned"><div class="verdict">LoRA fine-tuned</div>'
-                f'<p>{fine_tuned_out}</p>'
+                f"<p>{fine_tuned_out}</p>"
                 f'<div class="fk">FK grade {fk_grade(fine_tuned_out):.1f}</div></div>'
             )
 

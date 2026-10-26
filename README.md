@@ -1,5 +1,7 @@
 # Clinical Text Simplifier
 
+[![CI](https://github.com/crisomara/clinical-text-simplifier/actions/workflows/ci.yml/badge.svg)](https://github.com/crisomara/clinical-text-simplifier/actions/workflows/ci.yml) [![Security](https://github.com/crisomara/clinical-text-simplifier/actions/workflows/security.yml/badge.svg)](https://github.com/crisomara/clinical-text-simplifier/actions/workflows/security.yml)
+
 LoRA fine-tuning of a small open instruct LLM (`Qwen2.5-0.5B-Instruct`) to rewrite
 biomedical sentences in plain language, evaluated against **PLABA**
 (Plain Language Adaptation of Biomedical Abstracts) — a real, NIH/NLM-released
@@ -228,6 +230,22 @@ the first 200 of 1,242 test sentences, ~37 minutes for both models):
 ```
 python src/evaluate_model.py --adapter_dir checkpoints/lora_adapter --limit 200
 ```
+
+## CI
+
+Every push and pull request runs two GitHub Actions workflows:
+
+- **CI** (`.github/workflows/ci.yml`): `ruff check` and `ruff format --check`; `pytest` with coverage on Python 3.11 and 3.12 (the coverage report is uploaded as a build artifact); and a boot check that starts the Streamlit app and waits for its health endpoint.
+- **Security** (`.github/workflows/security.yml`, also weekly): gitleaks secret scanning over the full history, `pip-audit` on `requirements.txt`, CodeQL analysis for Python, dependency review on pull requests, and actionlint on the workflow files.
+
+CI never downloads the base model or the PLABA dataset. The tests cover the shared prompt builder, the topic-level train/val/test split (on a small synthetic release), the committed LoRA adapter config and reported metrics, and a render check of the Streamlit app, which only loads the model when "Simplify" is clicked. `docker build` is not run in CI because the Dockerfile bakes the ~1GB base model into the image; build it locally as described in [Running the demo](#running-the-demo).
+
+```
+pip install -r requirements.txt -r requirements-dev.txt
+pytest
+```
+
+Dependabot opens grouped weekly updates for pip, the Docker base image and GitHub Actions.
 
 ## License
 
